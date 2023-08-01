@@ -72,6 +72,7 @@ header
 
 #navbar 
 {
+    
     display: flex; 
     justify-content: center;
     align-items:center ;
@@ -253,17 +254,46 @@ footer
   color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+    .header-text {
+      font-size: 18px;
+    }
+    .titlo {
+      font-size: 24px;
+    }
+    .centered {
+      font-size: 40px;
+    }
+    .jogos {
+      font-size: 24px;
+    }
+  }
+  
+  /* For screen sizes smaller than 576px */
+  @media (max-width: 576px) {
     .logo-row {
       padding-left: 10px;
       justify-content: center;
     }
-    .header-text {
-      text-align: center;
-      padding-top: 10px;
-    }
     .social {
       display: none;
+    }
+  }
+  
+  /* For screen sizes smaller than 768px */
+  @media (max-width: 768px) {
+    .header-text {
+      text-align: center;
+      font-size: 22px;
+    }
+    .titlo {
+      font-size: 28px;
+    }
+    .centered {
+      font-size: 45px;
+    }
+    .jogos {
+      font-size: 28px;
     }
   }
   
@@ -278,39 +308,46 @@ footer
       border: none;
       padding: 10px;
     }
-  }
-  
-  /* For screen sizes smaller than 1200px */
-  @media (max-width: 1200px) {
-    .centered {
-      font-size: 50px;
-    }
-    .jogos {
-      font-size: 30px;
-    }
-  }
-  
-  /* For screen sizes smaller than 1440px */
-  @media (max-width: 1440px) {
     .text3,
     .text4 {
       font-size: 12px;
     }
   }
   
-  /* For screen sizes smaller than 1600px */
-  @media (max-width: 1600px) {
+  /* For screen sizes smaller than 1200px */
+  @media (max-width: 1200px) {
     .text,
     .text2 {
       font-size: 15px;
     }
   }
   
-  /* For screen sizes smaller than 1920px */
-  @media (max-width: 1920px) {
+  /* For screen sizes smaller than 1366px */
+  @media (max-width: 1366px) {
     .image1 img {
-      width: 50px;
-      height: 45px;
+      width: 40px;
+      height: 36px;
     }
   }
-
+  
+  /* For screen sizes smaller than 1440px */
+  @media (max-width: 1440px) {
+    .image1 img {
+      width: 36px;
+      height: 32px;
+    }
+  }
+  
+  /* For screen sizes smaller than 1600px */
+  @media (max-width: 1600px) {
+    .text3,
+    .text4 {
+      font-size: 10px;
+    }
+  }
+  
+  /* For screen sizes smaller than 1920px */
+  
+  
+  /* For screen sizes larger than 1920px */
+  
