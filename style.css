@@ -200,7 +200,8 @@ footer {
   clear: both;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) 
+{
   .banner {
     min-height: 400px;
   }
