@@ -9,13 +9,39 @@
 <body>
 
     <div class="banner">
-        <nav id="navbar">
-            <a href="#clube"><b>CLUBE</b></a>
-            <a href="#socios"><b>SOCIOS</b></a>
-            <a href="#modalidades"><b>MODALIDADES</b></a>
-            <a href="#sponsors"><b>SPONSORS</b></a>
-            <a href="#resultados"><b>RESULTADOS</b></a>
+        <nav class="navbar">
+            <div class="header">
+                <a href="#">
+                    <img class="logo" src="/imagens/16440_imgbank (2).png"/>
+                    <h1>GDC COHAEMATO</h1>
+                </a>
+            </div>  
+            
+            <ul class="nav-list" id="navi-list">
+                <li class="list-item">
+                    <a href="#">CLUBE</a>
+                </li>
+                <li class="list-item" >
+                    <a href="#">SÓCIOS</a>
+                </li>
+                <li class="list-item">
+                    <a href="#">MODALIDADES</a>
+                </li>
+                <li class="list-item">
+                    <a href="#">SPONSORS</a>
+                </li>
+                <li class="list-item">
+                    <a href="#">RESULTADOS</a>
+                </li>
+            </ul>
+            <div class="menu" id="toggle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
         </nav>
+        </div> 
+    </div>
         <p class="text-banner">ESTE É O NOSSO ADN</p>
     </div>
     
@@ -128,29 +154,13 @@
 <footer>
     <p>© 2023 Grupo Desportivo Cultural Cohaemato</p>
 </footer>
-</body> 
-</html>
 
-  <script>
-    window.onscroll = function () {
-        myFunction()
-    };
-
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-
-    function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-        } else {
-            navbar.classList.remove("sticky");
-        }
-    }
-
+<script>
+    
+   
     window.onload = function () {
         reveal(); // Trigger the reveal animation once the page has finished loading
     };
-
     function reveal() {
         var reveals = document.querySelectorAll(".reveal");
 
@@ -166,4 +176,16 @@
             }
         }
     }
+
+
+    const toggleButton = document.getElementById('toggle-button');
+    const naviList = document.getElementById('navi-list');
+
+    toggleButton.addEventListener('click', () =>{
+        naviList.classList.toggle('active');
+    })
+
+
 </script>
+</body> 
+</html>
