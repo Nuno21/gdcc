@@ -46,7 +46,8 @@ body
   align-items: center;
   font-size: 20px;
 }
-.navbar img
+
+.logo
 {
   height: 60px;
 }
