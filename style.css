@@ -200,125 +200,44 @@ footer {
   clear: both;
 }
 
-/* Media queries (unchanged) */
-
-
-@media (max-width: 480px) 
-{
-  .header-text 
-  {
-    font-size: 18px;
+@media (max-width: 768px) {
+  .banner {
+    min-height: 400px;
   }
-  .titlo 
-  {
-    font-size: 24px;
-  }
-  .centered 
-  {
+  .text-banner {
     font-size: 40px;
+    padding: 5px;
+    top: 40%;
+    right: 5%;
+    transform: translate(0%, -40%);
   }
-  .jogos 
-  {
-    font-size: 24px;
+  .jogos {
+    font-size: 20px;
+    padding-left: 5%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
   }
-}
-
-/* For screen sizes smaller than 576px */
-@media (max-width: 576px) 
-{
-  .logo-row 
-  {
-    padding-left: 10px;
-    justify-content: center;
+  .column {
+    width: 100%;
+    margin: 0;
+    border: none;
   }
-  .social 
-  {
-    display: none;
-  }
-}
-
-/* For screen sizes smaller than 768px */
-@media (max-width: 768px) 
-{
-  .header-text 
-  {
-    text-align: center;
-    font-size: 22px;
-  }
-  .titlo 
-  {
-    font-size: 28px;
-  }
-  .centered 
-  {
-    font-size: 45px;
-  }
-  .jogos 
-  {
-    font-size: 28px;
-  }
-}
-
-/* For screen sizes smaller than 992px */
-@media (max-width: 992px) 
-{
-  .row2 
-  {
+  .container2 {
     flex-direction: column;
     align-items: center;
   }
-  .column 
-  {
-    width: 100%;
-    border: none;
+  .text3,
+  .text4 {
+    font-size: 12px;
+    padding-left: 0;
+    text-align: center;
+  }
+  .reveal {
     padding: 10px;
   }
-  .text3,
-  .text4 
-  {
-    font-size: 12px;
-  }
 }
 
-/* For screen sizes smaller than 1200px */
-@media (max-width: 1200px) 
-{
-  .text,
-  .text2 
-  {
-    font-size: 15px;
-  }
-}
 
-/* For screen sizes smaller than 1366px */
-@media (max-width: 1366px) 
-{
-  .image1 img 
-  {
-    width: 40px;
-    height: 36px;
-  }
-}
 
-/* For screen sizes smaller than 1440px */
-@media (max-width: 1440px) 
-{
-  .image1 img 
-  {
-    width: 36px;
-    height: 32px;
-  }
-}
-
-/* For screen sizes smaller than 1600px */
-@media (max-width: 1600px) 
-{
-  .text3,
-  .text4 
-  {
-    font-size: 10px;
-  }
-}
-  
 
   
