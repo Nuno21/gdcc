@@ -100,8 +100,6 @@ body
   margin-bottom: 4px;
 }
 
-
-
 .column 
 {
   float: left;
@@ -191,8 +189,6 @@ body
   color: #fff;
   font-size: 45px;
   width: 33.3333%;
-  
-  
 }
 
 .container img
@@ -214,9 +210,13 @@ body
   width: 100%;
 }
 
-.redes p
+.redes
 {
   background-color: #ddd;
+}
+
+.redes p
+{
   color: #317e31;
   display: flex;
   justify-content: left;
