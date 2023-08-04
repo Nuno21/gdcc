@@ -140,7 +140,8 @@ body
   top: 20%;
   left: 53%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
+  font-size: 20px;
 }
 
 .data
@@ -185,6 +186,7 @@ body
 .container img
 {
   height: 85px; 
+  
 }
 
 footer
@@ -239,6 +241,11 @@ footer
     margin-top: 10px;
   }
 
+  .logo
+  {
+    left: 5px;
+  }
+
   .header h1
   {
     font-size: 25px;
@@ -252,12 +259,20 @@ footer
 
   .row
   {
+    width: 100%;
     margin: 0;
   }
 
   .column 
   { 
-    flex: 0 0 90%;
+    width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .competicao
+  {
+    left: 167px;
+    font-size: 18px;
   }
 }
 
