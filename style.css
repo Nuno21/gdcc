@@ -8,7 +8,7 @@
 body 
 {
   min-height: 100vh;
-  background-color: #fff;
+  background-color: #aaa;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -97,6 +97,7 @@ body
 .column 
 {
   float: left;
+  flex: 0 0 30%;
   width: 33.33%;
   padding: 10px;
   height: 300px; 
@@ -105,7 +106,8 @@ body
 .row
 {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   margin-left: 80px;
   margin-right: 80px;
@@ -146,25 +148,18 @@ body
   color:#fff;
   display: flex;
   justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 35%;
-  left: 53%;
-  margin: 0;
-  transform: translate(-50%, -50%)
+  text-align: center;
+  transform: translate(4% ,300%);
 }
 
 .oponentes
 {
   color:#fff;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+  justify-content:center;
+  text-align:center;
+  transform: translateY(450%);
+  
 }
 
 .container
@@ -173,7 +168,7 @@ body
   display: flex;
   justify-content:center;
   align-items:end;
-  top: 50%;
+  top: 35%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
@@ -255,9 +250,14 @@ footer
     display: block;
   }
 
-  .column 
+  .row
   {
-    width: 100%;
+    margin: 0;
+  }
+
+  .column 
+  { 
+    flex: 0 0 90%;
   }
 }
 
