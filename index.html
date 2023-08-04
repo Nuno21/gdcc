@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/775d186b2c.js" crossorigin="anonymous"></script>
     
     <title>GDC COHAEMATO</title>
 </head>
@@ -58,7 +59,7 @@
               </div>
                 <p class="oponentes">GDC COHAEMATO x RIO AVE FC </p>
             </div>
-            <div class="column" style="background-color:#bbb;">
+            <div class="column" style="background-color:#7bad7d;">
                 <h2 class="competicao">2ª JORNADA 1ª FASE DIVISÃO D'ELITE</h2>
                 <p class="data"><strong>19 DE AGOSTO, 2023 - 21H00</strong></p>
                 <div class="container">
@@ -70,15 +71,23 @@
             </div>
             <div class="column" style="background-color:#aaa;">
                 <h2 class="competicao">3ª JORNADA 1ª FASE DIVISÃO D'ELITE</h2>
-                <p class="data"><strong>26 DE AGOSTO, 2023 - 21H00</strong></p>
+                <p class="data"><strong>26 DE AGOSTO, 2023</strong></p>
                 <div class="container">
                   <img src="imagens/16440_imgbank (2).png">
-                  <p><strong>8 - 2</strong></p>
+                  <p><strong>21:00</strong></p>
                   <img src="imagens/RIO AVE.png">
                 </div>
                   <p class="oponentes">GDC COHAEMATO x RIO AVE FC </p>
             </div>
           </div>
+    </section>
+
+    <section class="redes">
+        <p><strong>REDES SOCIAIS</strong></p>
+            <div class="icons">
+                <a href="https://www.instagram.com/cohaemato/"><i class='fab fa-instagram'></i></a></i>
+                <a href="https://www.facebook.com/GDCCohaemato"><i class='fab fa-facebook'></i></a>
+            </div>
     </section>
 
         
@@ -88,27 +97,6 @@
 
 <script>
     
-   
-    window.onload = function () {
-        reveal(); // Trigger the reveal animation once the page has finished loading
-    };
-    function reveal() {
-        var reveals = document.querySelectorAll(".reveal");
-
-        for (var i = 0; i < reveals.length; i++) {
-            var windowHeight = window.innerHeight;
-            var elementTop = reveals[i].getBoundingClientRect().top;
-            var elementVisible = 150;
-
-            if (elementTop < windowHeight - elementVisible) {
-                reveals[i].classList.add("active");
-            } else {
-                reveals[i].classList.remove("active");
-            }
-        }
-    }
-
-
     const toggleButton = document.getElementById('toggle-button');
     const naviList = document.getElementById('navi-list');
 
