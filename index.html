@@ -26,7 +26,7 @@
                     <a href="#">SÓCIOS</a>
                 </li>
                 <li class="list-item">
-                    <button class="btn" id="navi-list">FUTSAL
+                    <button class="btn" id="drop-list">FUTSAL
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
@@ -39,7 +39,7 @@
                     <a href="#">SPONSORS</a>
                 </li>
                 <li class="list-item">
-                    <button class="btn" id="navi-list">RESULTADOS
+                    <button class="btn" id="drop-list">RESULTADOS
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
@@ -156,6 +156,13 @@
 
     toggleButton.addEventListener('click', () =>{
         naviList.classList.toggle('active');
+    })
+
+    
+    const drop = document.getElementById('drop-list');
+
+    toggleButton.addEventListener('click', () =>{
+        drop.classList.toggle('active');
     })
 
 

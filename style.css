@@ -126,8 +126,6 @@ body
   transition: transform 250ms ease-in-out;
 }
 
-.dropdown-content a:after{  transform-origin:  0% 50%; }
-
 .list-item:hover .dropdown-content 
 {
   display: block;
@@ -405,7 +403,7 @@ footer
     display: block;
     position: absolute;
     right: 10px;
-    top: 39px;
+    top: 32px;
   }
 
   .header
@@ -417,13 +415,13 @@ footer
 
   .logo
   {
-    left: 5px;
+    transform: translate(5px,-2px);
   }
 
   .header h1
   {
     font-size: 25px;
-    transform: translateY(25px);
+    transform: translateY(15px);
   }
 
   .active
@@ -433,26 +431,26 @@ footer
 
   .dropdown-content
   {
-    float: none;
     position: relative;
-    display: block;
     width: 100%;
     transform: translate(0px, 0px);
     margin: 0px;
     display: none;
+    
   }
 
   .dropdown-content a
   {
+    background-color: #fff;
+    color: #028b26;
     font-size: 18px;
     padding: 10px;
     width: 100%;
-    
   }
 
   .btn
   {
-    display: block;
+    list-style-type: none;
     width: 100%;
     text-align: center;
   }
@@ -486,8 +484,3 @@ footer
   }
 
 }
-
-
-
-
-  
