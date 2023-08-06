@@ -166,24 +166,18 @@
 </footer>
 
 <script>
-    
     const toggleButton = document.getElementById('toggle-button');
-    const naviList = document.getElementById('navi-list');
+    const naviList = document.getElementById('nav-list'); // Corrected variable name
 
-    toggleButton.addEventListener('click', () =>
-    {
+    toggleButton.addEventListener('click', () => {
         naviList.classList.toggle('active');
-    })
+    });
 
-    
     const drop = document.getElementById('drop-list');
 
-    toggleButton.addEventListener('click', () =>
-    {
-        drop.classList.toggle('active');
-    })
-
-
+    drop.addEventListener('click', () => {
+        drop.nextElementSibling.classList.toggle('active');
+    });
 </script>
 </body>
 </html>

@@ -496,7 +496,7 @@ footer
     display: none;
     min-width: 100vw;
     left: -10px;
-    z-index: 1; /* Set a higher z-index to make it appear above other elements */
+    z-index: 1; 
   }
 
   .dropdown-content a 

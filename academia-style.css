@@ -426,27 +426,53 @@ footer
     transform: translateY(15px);
   }
 
-  /* Use :active pseudo-class instead of .active class */
-  .dropdown-content,
-  .dropdown-content2 {
+  .active 
+  {
+    display: block;
+  }
+
+  .dropdown-content 
+  {
     position: relative;
     width: 100%;
-    margin: 0;
-    top: 0;
+    margin: 0px;
+    top: 0px;
     display: none;
     min-width: 100vw;
     left: -10px;
-    z-index: 1; /* Set a higher z-index to make it appear above other elements */
+    z-index: 1; 
   }
 
-  .dropdown-content a,
-  .dropdown-content2 a {
+  .dropdown-content a 
+  {
     background-color: #fff;
     color: #028b26;
     font-size: 18px;
     padding: 10px;
     width: 100%;
-    margin: 0;
+    margin: 0px;
+  }
+
+  .dropdown-content2 
+  {
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    top: 0px;
+    left: -10px;
+    display: none;
+    min-width: 100vw;
+    z-index: 1;
+  }
+
+  .dropdown-content2 a 
+  {
+    background-color: #fff;
+    color: #028b26;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    margin: 0px;
   }
 
   .btn 
@@ -489,5 +515,21 @@ footer
     font-size: 15px;
     display: block;
     text-align: left;
+  }
+
+  .column2 p 
+  {
+    font-size: 20px;
+    padding-top: 15px;
+    display: block;
+    text-align: center;
+  }
+
+  .column2 h2 
+  {
+    font-size: 20px;
+    padding-top: 5px;
+    display: block;
+    text-align: center;
   }
 }
