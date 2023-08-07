@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="academia-style.css">
     <script src="https://kit.fontawesome.com/775d186b2c.js" crossorigin="anonymous"></script>
     <title>GDCC ACADEMIA</title>
+    <link rel="icon" type="images/x-icon" href="imagens/16440_imgbank (2).png" />
 </head>
 <body>
     <div class="banner">
@@ -58,10 +59,10 @@
         <div class="navbar2">
             <ul class="nav-list2">
                 <li class="list-item2">
-                    <a href="#informacao"><strong>INFORMAÇÕES</a></strong>
+                    <a onclick="show()"><strong>INFORMAÇÕES</a></strong>
                 </li>
                 <li class="list-item2">
-                    <a href="#responsaveis"><strong>RESPONSAVEIS</a></strong>
+                    <a onclick="show2()"><strong>RESPONSAVEIS</a></strong>
                 </li>
             </ul>
         </div>
@@ -185,6 +186,18 @@
     drop.addEventListener('click', () => {
         drop.nextElementSibling.classList.toggle('active');
     });
+
+    function show()
+    {   
+        document.getElementById('informacao').style.display="block";
+        document.getElementById('responsaveis').style.display="none";
+    }
+
+    function show2()
+    {   
+        document.getElementById('responsaveis').style.display="block";
+        document.getElementById('informacao').style.display="none";
+    }
 </script>
 </body>
 </html>

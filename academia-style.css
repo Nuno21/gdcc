@@ -23,6 +23,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative; 
+    box-shadow: inset 0px -5px 200px 50px#000;
   }
 
   .navbar
@@ -195,7 +196,7 @@
   display: flex;
   justify-content: left;
   align-items: left;
-  padding-left: 450px;
+  padding-left: 310px;
 }
 
 .navbar2 a
@@ -207,7 +208,7 @@
 
 .navbar2 a:hover
 {
-  border-bottom: 2px solid #028b26;
+  border-bottom: 5px solid #028b26;
 }
 
 .nav-list2
@@ -225,6 +226,18 @@
 .informacao
 {
  background-color: #fafbfc;
+ margin-bottom: 20px;
+ animation: fadeIn 500ms ease-in;
+}
+
+@keyframes fadeIn {  
+  from {  
+      opacity:0;  
+  }  
+
+  to {  
+      opacity:1;  
+  }  
 }
 
 .row
@@ -286,8 +299,10 @@ li.texto
 
 .responsaveis
 {
-  margin-top: 25px;
   background-color: #fafbfc;
+  display: none;
+  margin-bottom: 20px;
+  animation: fadeIn 500ms ease-in;
 }
 
 .row2
@@ -300,7 +315,6 @@ li.texto
 
 .titlo2
 {
-  border-top: 2px solid #33333371;
   border-bottom: 2px solid #33333371;
   color: #028b26;
   display: flex;
@@ -315,7 +329,7 @@ li.texto
 .column2 
 {
   background-color: #fff;
-  width: 265px;
+  width: 300px;
   height: 400px;
   margin: 10px;
   border-radius: 5px;

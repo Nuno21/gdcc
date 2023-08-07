@@ -15,8 +15,8 @@
     background-position: center;
   }
 
-  .banner
-  {
+.banner
+{
     background-image: url("imagens/banner2.png");
     min-height: 450px;
     background-position: center;
@@ -24,7 +24,27 @@
     background-size: cover;
     position: relative; 
     box-shadow: inset 0px -5px 200px 50px#000;
-  }
+}
+
+.text-banner 
+{
+    position: absolute;
+    color: #028b26;
+    font-size: 20px;
+    padding: 0cqh;
+    top: 83%;
+    left: 16.5%;
+}
+
+.text-banner2 
+{
+    position: absolute;
+    color: #fff;
+    font-size: 35px;
+    padding: 0px;
+    top: 90%;
+    left: 16.5%;
+}
 
   .navbar
   {
@@ -221,7 +241,6 @@
   display: inline-block;
   padding: 20px 10px;
 }
-  
 
 .informacao
 {
@@ -297,10 +316,9 @@ li.texto
   left: 60px
 }
 
-.escaloes
+.plantel
 {
   background-color: #fafbfc;
-  display: none;
   margin-bottom: 20px;
   animation: fadeIn 500ms ease-in;
 }
@@ -326,96 +344,7 @@ li.texto
   padding: 20px;
 }
 
-.column2 
-{
-  position: relative;
-  width: 350px;
-  height: 350px;
-  margin: 10px;
-  border-radius: 5px;
-  display: inline-block;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.column img
-{
-  width: 100%;
-  display: block;
-  height: auto;
-}
-
-.overlay 
-{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #00bf63;
-}
-
-.column2:hover .overlay 
-{
-  opacity: 1;
-}
-
-.column2 p
-{
-  color: white;
-  font-size: 30px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.column2 h2
-{
-  color: #494949;
-  text-align: center;
-  position: relative;
-  display: grid;
-}
-
-.responsaveis
-{
-  background-color: #fafbfc;
-  display: none;
-  margin-bottom: 20px;
-  animation: fadeIn 500ms ease-in;
-}
-
-.row3
-{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.titlo3
-{
-  border-bottom: 2px solid #33333371;
-  color: #028b26;
-  display: flex;
-  justify-content: left;
-  text-align: left;
-  position: relative;
-  font-size: 30px;
-  width: 100%;
-  padding: 20px;
-}
-
-.column3
+.column2
 {
   background-color: #fff;
   width: 300px;
@@ -428,13 +357,13 @@ li.texto
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.column3 img
+.column2 img
 {
   width: 100%;
   height: 300px;
 }
 
-.column3 p
+.column2 p
 {
   color: #028b26;
   text-align: center;
@@ -444,7 +373,7 @@ li.texto
   top: 10px;
 }
 
-.column3 h2
+.column2 h2
 {
   color: #494949;
   text-align: center;
@@ -452,6 +381,114 @@ li.texto
   display: grid;
   top: 10px;
 }
+
+.eqtecnia
+{
+  background-color: #fafbfc;
+  margin-bottom: 20px;
+  animation: fadeIn 500ms ease-in;
+  display: none;
+}
+
+.calendario
+{
+  background-color: #fafbfc;
+  margin-bottom: 20px;
+  animation: fadeIn 500ms ease-in;
+  display: none; 
+}
+
+.row3
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.data
+{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-top: 5px;
+    font-size: 15px;
+    padding: 5px;
+    top: -25px;
+    left: -280px;
+}
+
+.hora
+{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-top: 5px;
+    font-size: 15px;
+    padding: 5px;
+    top: -5px;
+    left: -380px;
+}
+
+.clube1
+{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-top: 5px;
+    font-size: 15px;
+    padding: 5px;
+    top: -10px;
+    left: -35px;
+}
+
+.clube2
+{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-top: 5px;
+    font-size: 15px;
+    padding: 5px;
+    top: -10px;
+    right: 0px;
+}
+
+.img1
+{
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: -10px;
+    left: -25px;
+}
+
+
+.img2
+{
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: -10px;
+    right: -25px;
+}
+
+.vs
+{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 5px;
+    top: -10px;
+    right: 0px;
+}
+
 
 .redes
 {
@@ -694,3 +731,5 @@ footer
     text-align: center;
   }
 }
+
+  
