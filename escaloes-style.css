@@ -265,15 +265,14 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-left: 80px;
-  margin-right: 80px;
+  padding: 0px;
 }
 .column 
 {
   background-color: #fafbfc;
   justify-content: center;
   display: inline-block;
-  width: 75%;
+  width: 90%;
   position: relative;
   flex-direction: column;
   margin: 0;
@@ -406,6 +405,19 @@ li.texto
   justify-content:space-between;
   align-items: center;
   border-bottom: 2px solid #33333371;
+  width: 100%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.container
+{
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  
 }
 
 .container2
@@ -429,6 +441,16 @@ li.texto
   vertical-align: middle;
 }
 
+.container4
+{
+  position:static;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
 .imgC
 {
   align-items: center;
@@ -448,7 +470,7 @@ li.texto
   justify-content: right;
   padding: 5px;
   white-space: nowrap;
-  font-size: 15px;
+  font-size: 11px;
 }
 
 .clube2
@@ -460,7 +482,7 @@ li.texto
   justify-content: left;
   padding: 5px;
   white-space: nowrap;
-  font-size: 15px;
+  font-size: 11px;
 }
 
 .vs
@@ -742,9 +764,9 @@ footer
 
   .row3 
   {
-    flex-direction: column;
+    display: grid;
     align-items: center;
-    margin: 0;
+    padding: 0;
   }
   
   .container
@@ -752,30 +774,44 @@ footer
     white-space: nowrap;
     text-align: center;
     display: block;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 13px;
   }
   .container2
   {
     width: 100%;
-    
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
   }
 
   .container3
   {
     width: 100%;
     display: block;
+    padding: 0;
   }
   .container4
   {
     width: 100%;
     justify-content: center;
     align-items: center;
+    display: block;
+    padding: 0;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
   }
-
 
   .localizacao
   {
    display: block;
    justify-content: center;
+   align-items: center;
+   text-align: center;
+   transform: translateX(-160px);
   }
   
   .vs
@@ -786,57 +822,17 @@ footer
 
   .img1,.img2
   {
-    order: 1;
-    display: block;
-    height: 75px;
+    height: 65px;
     margin: 0;
   }
 
   .clube1,.clube2
   { 
-    display: block;
-    order: 2;
+    font-size: 12px;
   }
+  
 }
 
-
-@media all and (max-width: 960px) {
-  /* Adjustments for medium-sized screens */
-  .row {
-    margin: 0 20px; /* Adjust margins for spacing */
-  }
-}
-
-@media all and (max-width: 768px) {
-  /* Adjustments for smaller screens */
-  .row {
-    margin: 0 10px; /* Further reduce margins for spacing */
-  }
-
-  .text-banner {
-    font-size: 16px; /* Decrease font size for smaller screens */
-  }
-
-  .text-banner2 {
-    font-size: 30px; /* Decrease font size for smaller screens */
-  }
-
-  .titlo,
-  .subtitlo {
-    font-size: 24px; /* Decrease font size for smaller screens */
-  }
-
-  .column2 p,
-  .column2 h2,
-  .column3 p,
-  .column3 h2 {
-    font-size: 18px; /* Decrease font size for smaller screens */
-  }
-
-  .localizacao {
-    font-size: 10px; /* Decrease font size for smaller screens */
-  }
-}
 
 
 
