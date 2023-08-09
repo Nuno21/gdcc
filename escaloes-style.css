@@ -400,167 +400,104 @@ li.texto
 
 .row3
 {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content:space-between;
   align-items: center;
   border-bottom: 2px solid #33333371;
- 
-}
-
-.column4
-{
-  float: left;
-  flex: 0 0 33.333%;
-  width: 33.333%;
-  padding: 10px;
-  
-}
-
-.container
-{
-  width: 100%;
-  display: flex;
-  justify-content:space-between;
-  align-items:flex-end;
-  padding: 5px;
 }
 
 .container2
 {
-  position: relative;
+  width: 800px;
   display: flex;
   justify-content: center;
-  align-items: end;
-  margin-bottom: 15px;
-  width: 100%;
-  height: 100%;
+  align-items: center;
 }
 
 .container3
 {
-  justify-content:left;
-  float: left;
-  align-items:end;
-  padding: 5px;
-  transform: translateY(-30px);
-}
-
-.container4
-{
-  justify-content:right;
-  float: right;
-  align-items:end;
-  padding: 5px;
-  transform: translateY(-30px);
-}
-
-.data
-{
-  color: #494949;
-  display: flex;
   position: relative;
-  font-size: 15px;
+  width: 250px;
+  height: 85px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  vertical-align: middle;
 }
 
-.hora
+.imgC
 {
-  color: #494949;
-  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  margin-top: 5px;
-  font-size: 15px;
-  text-align: left;
-
+  display: flex;
+  width: 80px;
+  
 }
 
 .clube1
 {
-  
-  display: flex;
   position: relative;
-  font-size: 15px;
+  width: 150px;
+  display: flex;
+  align-content: center;
+  justify-content: right;
+  padding: 5px;
   white-space: nowrap;
-  text-align: center;
-  left: -25px;
-  padding-bottom: 10px;
-  padding-right: 5px;
-  width: 100%;
+  font-size: 15px;
 }
 
 .clube2
-{   
-
-  display: flex;
+{
   position: relative;
-  font-size: 15px;
+  width: 150px;
+  display: flex;
+  align-content: center;
+  justify-content: left;
+  padding: 5px;
   white-space: nowrap;
-  text-align: center;
-  right: -25px;
-  padding-bottom: 10px;
-  padding-left: 5px;
-  width: 100%;
-}
-
-.img1
-{
-  height: 50px;
-  display: flex;
-  position: relative;
-  margin: 0;
-  left: -15px;
-}
-
-.img2
-{
-  height: 50px;
-  display: flex;
-  position: relative;
-  margin: 0;
-  right: -15px;
+  font-size: 15px;
 }
 
 .vs
 {
-  color: #ff0909;
-  display: flex;
   position: relative;
-  margin-bottom: 15px;
+  width: 85px;
+  height: 85px;
   font-size: 20px;
-  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .localizacao
 {
-  color: #494949;
-  display: flex;
-  position: relative;
+  align-items: flex-end;
+  width: 350px;
   white-space: nowrap;
   justify-content: center;
+  display: flex;
   text-align: center;
-  padding-bottom: 10px;
-  width: 100%;
-  font-size: 15px;
-  transform: translateX(25px);
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding: 10px;
+  position: absolute; /* Add this */
+  bottom: -20px; /* Adjust this value as needed */
+  left: 46%;
+  transform: translateX(-50%);
 }
 
-.competicao
+.img1,.img2
 {
-  color: #494949;
-  display: flex;
-  position: relative;
-  font-size: 15px;
+  height: 50px;
+  margin: 5px;
 }
 
-.jornada
-{ 
-  color: #494949;
-  display: flex;
-  position: relative;
-  font-size: 15px;
-  margin-top: 5px;
-  
-}
 
 .redes
 {
@@ -805,85 +742,100 @@ footer
 
   .row3 
   {
-    flex-direction:row;
-    width: 100%;
+    flex-direction: column;
+    align-items: center;
     margin: 0;
   }
   
   .container
   {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    transform: translateX(-5px);
+    white-space: nowrap;
+    text-align: center;
+    display: block;
   }
-  .container3
-  {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px 0;
-    transform: translate(145px,-70px);
-    float:inline-end;
-  }
-
   .container2
   {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
+    
+  }
 
+  .container3
+  {
+    width: 100%;
+    display: block;
   }
   .container4
   {
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 0;
-    white-space: nowrap;
-    transform: translate(-125px,60px);
   }
 
-  .competicao
-  {
-    font-size: 13px;
-  }
-
-  .jornada
-  {
-    font-size: 12px;
-  }
 
   .localizacao
   {
-    font-size: 12px;
-    padding: 5px;
-    transform: translate(15px,15px);
+   display: block;
+   justify-content: center;
   }
   
   .vs
   {
-    transform: translate(6px,-30px);
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .img1,.img2
   {
-    height: 70px;
     order: 1;
+    display: block;
+    height: 75px;
+    margin: 0;
   }
 
   .clube1,.clube2
-  {
-    text-align: center;
-    margin-top: 5px;
+  { 
+    display: block;
     order: 2;
   }
+}
 
 
+@media all and (max-width: 960px) {
+  /* Adjustments for medium-sized screens */
+  .row {
+    margin: 0 20px; /* Adjust margins for spacing */
+  }
+}
+
+@media all and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .row {
+    margin: 0 10px; /* Further reduce margins for spacing */
+  }
+
+  .text-banner {
+    font-size: 16px; /* Decrease font size for smaller screens */
+  }
+
+  .text-banner2 {
+    font-size: 30px; /* Decrease font size for smaller screens */
+  }
+
+  .titlo,
+  .subtitlo {
+    font-size: 24px; /* Decrease font size for smaller screens */
+  }
+
+  .column2 p,
+  .column2 h2,
+  .column3 p,
+  .column3 h2 {
+    font-size: 18px; /* Decrease font size for smaller screens */
+  }
+
+  .localizacao {
+    font-size: 10px; /* Decrease font size for smaller screens */
+  }
 }
 
 
