@@ -267,6 +267,7 @@
   align-items: center;
   padding: 0px;
 }
+
 .column 
 {
   background-color: #fafbfc;
@@ -276,6 +277,18 @@
   position: relative;
   flex-direction: column;
   margin: 0;
+}
+
+.column1 
+{
+  background-color: #fafbfc;
+  justify-content: center;
+  display: inline-block;
+  width: 75%;
+  position: relative;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .titlo
@@ -451,6 +464,12 @@ li.texto
   font-size: 12px;
 }
 
+.data,.hora
+{
+  font-size: 12px;
+}
+
+
 .imgC
 {
   align-items: center;
@@ -507,10 +526,10 @@ li.texto
   text-align: center;
   font-size: 12px;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 12px;
   position: absolute; /* Add this */
   bottom: -20px; /* Adjust this value as needed */
-  left: 46%;
+  left: 48%;
   transform: translateX(-50%);
 }
 
@@ -531,8 +550,8 @@ li.texto
   color: #317e31;
   display: flex;
   justify-content: left;
-  padding-top: 10px;
-  font-size: 25px;
+  padding-top: 2px;
+  font-size: 15px;
   justify-content: center;
 }
 
@@ -542,8 +561,8 @@ li.texto
   color: #4e4e4e;
   display: flex;
   justify-content: center;
-  font-size: 40px;
-  padding: 5px;
+  font-size: 20px;
+  padding: 1px;
   
 }
 
@@ -551,7 +570,7 @@ li.texto
 {
   color: #4e4e4e;
   text-decoration: none;
-  padding: 15px;
+  padding: 5px;
 }
 
 .icons a:hover
