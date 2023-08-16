@@ -442,8 +442,8 @@ li.texto
   font-size: 12px;
   margin-bottom: 10px;
   padding: 12px;
-  position: absolute; /* Add this */
-  bottom: -20px; /* Adjust this value as needed */
+  position: absolute;
+  bottom: -20px; 
   left: 48%;
   transform: translateX(-50%);
 }
@@ -474,7 +474,7 @@ li.texto
 
 .pos
 {
-  width: 75px;
+  width: 80px;
   height: 20px;
   padding-left: 5px;
   padding-right: 5px;
@@ -482,11 +482,12 @@ li.texto
   font-size: 12px;
   text-align: center;
   justify-content: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .clube
 {
-  width: 150px;
+  width: 80px;
   height: 20px;
   padding-left: 5px;
   padding-right: 5px;
@@ -495,6 +496,7 @@ li.texto
   text-align: center;
   justify-content: center;
   display: flex;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .valores
@@ -507,7 +509,7 @@ li.texto
 
 .jogos
 {
-  width: 50px;
+  width: 60px;
   height: 20px;
   padding-left: 5px;
   padding-right: 5px;
@@ -516,11 +518,12 @@ li.texto
   text-align: center;
   justify-content: center;
   flex: 1;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .vitorias
 {
-  width: 50px;
+  width: 60px;
   height: 20px;
   padding-left: 5px;
   padding-right: 5px;
@@ -529,11 +532,12 @@ li.texto
   text-align: center;
   justify-content: center;
   flex: 1;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .empates
 {
-  width: 50px;
+  width: 60px;
   height: 20px;
   padding-left: 5px;
   padding-right: 5px;
@@ -542,11 +546,12 @@ li.texto
   text-align: center;
   justify-content: center;
   flex: 1;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .derrotas
 {
-  width: 50px;
+  width: 60px;
   height: 20px;
   padding-left: 5px;
   padding-right: 5px;
@@ -555,11 +560,12 @@ li.texto
   text-align: center;
   justify-content: center;
   flex: 1;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .gm
 {
-  width: 50px;
+  width: 60px;
   height: 20px;
   padding-left: 5px;
   padding-right: 5px;
@@ -568,11 +574,12 @@ li.texto
   text-align: center;
   justify-content: center;
   flex: 1;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .gs
 {
-  width: 50px;
+  width: 60px;
   height: 20px;
   padding-left: 5px;
   padding-right: 5px;
@@ -581,10 +588,11 @@ li.texto
   text-align: center;
   justify-content: center;
   flex: 1;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .dg
 {
-  width: 50px;
+  width: 60px;
   height: 20px;
   padding-left: 5px;
   padding-right: 5px;
@@ -593,11 +601,12 @@ li.texto
   text-align: center;
   justify-content: center;
   flex: 1;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .pontos
 {
-  width: 50px;
+  width: 60px;
   height: 20px;
   padding-left: 5px;
   padding-right: 5px;
@@ -607,6 +616,7 @@ li.texto
   text-align: center;
   justify-content: center;
   flex: 1;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .row3
@@ -616,58 +626,49 @@ li.texto
   justify-content: center;
   align-items: center;
   padding: 0px;
-  height: 60px;
-  background-color: #999999;
+  height: 75px;
 }
 
-.emblema 
+.posicao1
 {
+  height: 75px;
   position: relative;
-  width: 75px;
-  height: 60px;
+  display: flex;
+  justify-content: left;
+  margin-right: 585px;
+  color: white;
+}
+
+.pos1
+{
+  width: 80px;
+  font-size: 12px;
+  text-align: center;
   justify-content: center;
   align-items: center;
   display: flex;
+  font-size: 15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.clube1
+{
+  width: 80px;
+  font-size: 12px;
+  text-align: center;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .emblema img
 {
   height: 40px;
-}
-
-.posicao1
-{
-  position: relative;
+  justify-content: center;
+  align-items: center;
   display: flex;
-  justify-content: left;
-  margin-right: 585px;
-  height: 60px;
-  vertical-align: middle;
-}
-
-.pos1
-{
-  width: 75px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  
-}
-
-.clube1
-{
-  width: 150px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  vertical-align: middle;
 }
 
 .valores1
@@ -676,122 +677,54 @@ li.texto
   display: flex;
   justify-content: center;
   margin-left: 150px;
-  height: 60px;
+  color: #fff;
 }
 
-.jogos1
+.valores1 .jogos
 {
-  width: 50px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  flex: 1;
-  height: 60px;
+  font-size: 15px;
+}
+.valores1 .vitorias
+{
+  font-size: 15px;
 }
 
-.vitorias1
+.valores1 .empates
 {
-  width: 50px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  flex: 1;
-  height: 60px;
+  font-size: 15px;
 }
 
-.empates1
+.valores1 .derrotas
 {
-  width: 50px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  flex: 1;
-  height: 60px;
+  font-size: 15px;
 }
 
-.derrotas1
+.valores1 .gm
 {
-  width: 50px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  flex: 1;
-  height: 60px;
+  font-size: 15px;
 }
 
-.gm1
+.valores1 .gs
 {
-  width: 50px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  flex: 1;
-  height: 60px;
+  font-size: 15px;
 }
 
-.gs1
+.valores1 .dg
 {
-  width: 50px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  flex: 1;
-  height: 60px;
-}
-.dg1
-{
-  width: 50px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  flex: 1;
-  height: 60px;
+  font-size: 15px;
 }
 
-.pontos1
+.valores1 .pontos
 {
-  width: 50px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  margin-left: 60px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  height: 60px;
-  vertical-align: middle;
+  font-size: 15px;
 }
+
+.texto
+{
+  padding-left: 15px;
+  font-size: 15px;
+}
+
 
 .redes
 {
