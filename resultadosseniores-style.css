@@ -262,6 +262,7 @@
   justify-content: center;
   align-items: center;
   padding: 0px;
+  
 }
 
 .column 
@@ -269,10 +270,9 @@
   background-color: #fafbfc;
   justify-content: center;
   display: inline-block;
-  width: 90%;
+  width: 75%;
   position: relative;
   flex-direction: column;
-  margin: 0;
 }
 
 .titlo
@@ -312,7 +312,20 @@ li.texto
 }
 
 
-.resultados
+.titlo2
+{
+  border-bottom: 2px solid #33333371;
+  color: #028b26;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  position: relative;
+  font-size: 30px;
+  width: 100%;
+  padding: 20px;
+}
+
+.classificacao
 {
   background-color: #fafbfc;
   margin-bottom: 20px;
@@ -339,6 +352,7 @@ li.texto
   justify-content: center;
   align-items: center;
   vertical-align: middle;
+  margin-left: 25px;
 }
 
 .container2
@@ -370,6 +384,7 @@ li.texto
   align-items: center;
   vertical-align: middle;
   font-size: 12px;
+  margin-right: 25px;
 }
 
 .data,.hora
@@ -430,7 +445,6 @@ li.texto
 }
 
 
-
 .localizacao
 {
   align-items: flex-end;
@@ -442,7 +456,7 @@ li.texto
   font-size: 12px;
   margin-bottom: 10px;
   padding: 12px;
-  position: absolute;
+  position: absolute; 
   bottom: -20px; 
   left: 48%;
   transform: translateX(-50%);
@@ -454,277 +468,121 @@ li.texto
   margin: 5px;
 }
 
-
 .row-header
 {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 35px;
   justify-content: center;
   align-items: center;
-  padding: 0px;
 }
+
 
 .posicao
 {
-  position: relative;
   display: flex;
-  justify-content: left;
-  margin-right: 585px;
+  text-align: center;
+  width: 250px;
+  margin-left: 50px;
+  color: #4e4e4e;
 }
 
 .pos
 {
-  width: 80px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-.clube
-{
-  width: 80px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  flex:1;
 }
 
 .valores
 {
-  position: relative;
+  width: 450px;
   display: flex;
-  justify-content: center;
-  margin-left: 150px;
+  text-align: center;
+  margin-right: 50px;
+  color: #4e4e4e;
 }
 
-.jogos
+.val
 {
-  width: 60px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  flex: 1;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-.vitorias
-{
-  width: 60px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  flex: 1;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-.empates
-{
-  width: 60px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  flex: 1;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-.derrotas
-{
-  width: 60px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  flex: 1;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-.gm
-{
-  width: 60px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  flex: 1;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-.gs
-{
-  width: 60px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  flex: 1;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-.dg
-{
-  width: 60px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: center;
-  flex: 1;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-.pontos
-{
-  width: 60px;
-  height: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: 12px;
-  margin-left: 60px;
-  text-align: center;
-  justify-content: center;
-  flex: 1;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  flex:1;
+  width: 20px;
 }
 
 .row3
 {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: #028b26;
+  height: 65px;
   justify-content: center;
   align-items: center;
-  padding: 0px;
-  height: 75px;
 }
 
 .posicao1
 {
-  height: 75px;
-  position: relative;
   display: flex;
-  justify-content: left;
-  margin-right: 585px;
-  color: white;
+  text-align: center;
+  width: 340px;
+  margin-left: 50px;
+  color: #4e4e4e;
 }
 
 .pos1
 {
-  width: 80px;
-  font-size: 12px;
-  text-align: center;
+  flex:1;
+  white-space: nowrap;
+  color: #fafbfc;
+ 
+}
+
+.clube
+{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr ;
+  height: 65px;
   justify-content: center;
   align-items: center;
-  display: flex;
-  font-size: 15px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  
+  
 }
 
-.clube1
-{
-  width: 80px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: left;
-  align-items: center;
-  display: flex;
-  font-size: 15px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-.emblema img
-{
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.valores1
+.emblema
 {
   position: relative;
   display: flex;
   justify-content: center;
-  margin-left: 150px;
-  color: #fff;
+  align-items: center;
+  gap: 20px;
+  transform: translateX(45px);
+  width: 250px;
 }
 
-.valores1 .jogos
+
+.emblema img
 {
-  font-size: 15px;
-}
-.valores1 .vitorias
-{
-  font-size: 15px;
+  height: 40px;
 }
 
-.valores1 .empates
+.emblema p
 {
-  font-size: 15px;
+  width: 150px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  white-space: nowrap;
+  color:#fff;
+ 
 }
 
-.valores1 .derrotas
+.val1
 {
-  font-size: 15px;
+  flex:1;
+  width: 20px;
+  color: #fafbfc;
 }
-
-.valores1 .gm
-{
-  font-size: 15px;
-}
-
-.valores1 .gs
-{
-  font-size: 15px;
-}
-
-.valores1 .dg
-{
-  font-size: 15px;
-}
-
-.valores1 .pontos
-{
-  font-size: 15px;
-}
-
-.texto
-{
-  padding-left: 15px;
-  font-size: 15px;
-}
-
 
 .redes
 {
@@ -782,6 +640,13 @@ footer
 
 @media all and (max-width: 600px) 
 {
+
+  body
+  {
+    margin: 0;
+    padding: 0;
+  }
+
   .navbar
   {
     flex-direction: column;
@@ -902,7 +767,7 @@ footer
 
   .row 
   {
-    width: 100%;
+    padding: 0;
     margin: 0;
   }
 
@@ -967,8 +832,6 @@ footer
     text-align: center;
   }
 
- 
-  
   .container
   {
     white-space: nowrap;
@@ -1030,8 +893,110 @@ footer
   { 
     font-size: 12px;
   }
+
+  .row-header
+  {
+    width: 100%;
+    margin: 0;
+    height: auto;
+  }
+
+  .row3
+  {
+    width: 100%;
+    margin: 0;
+    height: auto;
+  }
+
+  .clube
+  {
+    width:auto;
+    margin: 0;
+    height: auto;
+    transform: translateX(40px);
+  }
+
+  .pos:last-child 
+  {
+    display: block;
+    width: 20px;
+    transform: translateX(10px); 
+  }
+
+  .posicao,
+  .valores,
+  .posicao1 
+  {
+    width: auto;
+    margin: 10px;
+  }
+
+  .val 
+  {
+    width: auto;
+    display: none;
+    margin-left: 0;
+  }
+
+  .val:last-child 
+  {
+    position: relative;
+    display: block; 
+    width: 5px;
+    margin-left: 0px;
+    transform: translateX(20px); 
+  }
+
+  .val1:last-child 
+  {
+    display: block; 
+    width: 20px;
+    transform: translateX(10px); 
+  }
+
+  .val1 
+  {
+    width: auto;
+    display: none;
+  }
+
+  .pos,
+  .pos1 
+  {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .emblema p 
+  {
+    font-size: 12px;
+  }
   
+  .emblema 
+  {
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    transform: translateX(70px);
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .row3:last-child
+  {
+    transform: none;
+  }
+  
+  .emblema img 
+  {
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+  }
 }
+
+
 
 
 

@@ -206,6 +206,7 @@
   text-decoration: none;
 }
 
+
 .navbar2 a:hover
 {
   border-bottom: 5px solid #028b26;
@@ -230,12 +231,15 @@
  animation: fadeIn 500ms ease-in;
 }
 
-@keyframes fadeIn {  
-  from {  
+@keyframes fadeIn 
+{  
+  from 
+  {  
       opacity:0;  
   }  
 
-  to {  
+  to 
+  {  
       opacity:1;  
   }  
 }
