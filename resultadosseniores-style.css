@@ -255,6 +255,11 @@
   }  
 }
 
+.resultados
+{
+  animation: fadeIn 500ms ease-in;
+}
+
 .row
 {
   display: flex;
@@ -524,7 +529,7 @@ li.texto
   display: flex;
   text-align: center;
   width: 340px;
-  margin-left: 50px;
+  margin-left: 65px;
   color: #4e4e4e;
 }
 
@@ -533,20 +538,16 @@ li.texto
   flex:1;
   white-space: nowrap;
   color: #fafbfc;
- 
 }
 
 .clube
 {
-  
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr ;
   height: 65px;
   justify-content: center;
   align-items: center;
-  
-  
 }
 
 .emblema

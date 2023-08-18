@@ -207,7 +207,9 @@ body
   flex: 0 0 30%;
   width: 33.33%;
   padding: 10px;
-  height: 300px; 
+  height: 300px;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -228,6 +230,68 @@ body
   clear: both;
 }
 
+.row3
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1r;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 100px;
+
+}
+
+.row3 p
+{
+  transform: translateY(-10px);
+}
+
+.row4
+{
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.column3
+{
+ 
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  font-size: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.column3 p
+{
+  transform: translateY(5px);
+}
+
+.column3 img
+{
+  height: 85px;
+  justify-content: center;
+  align-items:center ;
+}
+
+.column p
+{
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  justify-content: center;
+  align-items:center;
+}
+
+
 .jogos h1
 {
   background-color: #ddd;
@@ -239,76 +303,6 @@ body
   justify-content: center;
 }
 
-.competicao
-{
-  color:#fff;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  top: 15%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  width: 100%;
-}
-
-.data
-{
-  color:#fff;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  top: 20%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-}
-
-.container
-{
-  position: relative;
-  display: flex;
-  justify-content:center;
-  align-items:end;
-  top: 35%;
-  left: 47%;
-  margin-right: -0%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-}
-
-.container p
-{
-  position: relative;
-  display: flex;
-  justify-content:center;
-  text-align: center;
-  color: #fff;
-  font-size: 40px;
-  width: 33.3333%;
-}
-
-.container img
-{
-  height: 85px; 
-}
-
-.opponentes
-{
-  color:#fff;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-}
 
 .sponsors
 {
@@ -550,11 +544,6 @@ footer
     flex: 0 0 100%;
   }
 
-  .competicao 
-  {
-    font-size: 18px;
-  }
-
   .container img 
   {
     height: 75px;
@@ -564,5 +553,15 @@ footer
   .container p 
   {
     font-size: 35px;
+  }
+
+  .row4
+  {
+    width:97%;
+  }
+
+  .column3 img
+  {
+    height: 70px;
   }
 }
