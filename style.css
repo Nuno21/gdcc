@@ -564,4 +564,19 @@ footer
   {
     height: 70px;
   }
+
+  .column3
+  {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
 }
+
+  @media all and (max-width: 1500px)
+  {
+    .column3
+    {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
