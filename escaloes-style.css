@@ -348,7 +348,7 @@ li.texto
   height: 400px;
   margin: 10px;
   border-radius: 5px;
-  display: inline-block;
+  display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -383,9 +383,114 @@ li.texto
 {
   background-color: #fafbfc;
   margin-bottom: 20px;
-  animation: fadeIn 500ms ease-in;
+  animation: fadeIn 500ms ease-in-out;
   display: none;
 }
+
+.more
+{
+  display: none;
+  animation: ani 750ms ease-in-out;
+}
+
+.more2
+{
+  display: none;
+  animation: ani 750ms ease-in-out;
+}
+
+@keyframes ani
+{
+  from
+  {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+
+  to
+  {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+.readmore
+{
+  
+  position: relative;
+  padding: 10px;
+  display: flex;
+  border: none;
+  outline: none;
+  cursor:pointer;
+  align-items: center;
+  justify-content: center;
+  background-color: #028b26;
+  margin-top: 10px;
+  width: 190px;
+  transform: translateX(29vw);
+}
+
+.readmore a
+{
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.readmore2
+{
+  position: relative;
+  padding: 10px;
+  display: flex;
+  border: none;
+  outline: none;
+  cursor:pointer;
+  align-items: center;
+  justify-content: center;
+  background-color: #028b26;
+  margin-top: 10px;
+  width: 190px;
+  transform: translateX(29vw);
+  display: none;
+}
+
+.readmore2 a
+{
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.showless
+{
+  position: relative;
+  padding: 10px;
+  display: flex;
+  border: none;
+  outline: none;
+  cursor:pointer;
+  align-items: center;
+  justify-content: center;
+  background-color: #028b26;
+  margin-top: 10px;
+  width: 190px;
+  transform: translateX(29vw);
+  display: none;
+  
+}
+
+.showless a
+{
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+}
+
 
 .calendario
 {
@@ -577,13 +682,32 @@ footer
     display: none;
   }
 
+  .text-banner
+  {
+    left: 9%;
+  }
+
+  .text-banner2
+  {
+    left: 9%;
+  }
+
+  .navbar2 a 
+  {
+    font-size: 17px;
+  }
+
   .nav-list2 
   {
     list-style-type: none;
     width: 100%;
     text-align: center;
-    padding-top: 10px;
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
   }
+
 
   .nav-list .list-item
   {
@@ -669,6 +793,13 @@ footer
     margin: 0px;
   }
 
+  .titlo2
+  {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  
   .btn 
   {
     list-style-type: none;
@@ -690,8 +821,6 @@ footer
     padding: 0;
     margin: 0;
   }
-
-  
 
   .column2 p 
   {
@@ -720,19 +849,26 @@ footer
 
   .row4
   {
-    margin: 0;
+    margin: 0px;
+    
   }
 
   .column3
   {
+    justify-content: center;
+    align-items: center;
     display: block;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
   }
 
   .column4
   {
+    justify-content: center;
+    align-items: center;
     display: block;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
   }
 
   .clube1
@@ -748,8 +884,9 @@ footer
 
   .imgC
   {
-    height: 35px;
+    height: 45px;
     margin: 0px;
+    
   }
 
   .row5

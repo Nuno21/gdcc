@@ -542,11 +542,40 @@ footer
     text-align: center;
   }
 
+  .navbar2 a 
+  {
+    font-size: 17px;
+  }
+
+  .nav-list2 
+  {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
   .row 
   {
     width: 100%;
     margin: 0;
   }
+
+  .titlo
+  {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .titlo2
+  {
+    font-size: 20px;
+    padding: 10px;
+  }
+
 
   .column 
   {

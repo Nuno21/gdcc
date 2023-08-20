@@ -528,14 +528,43 @@ footer
     display: none;
   }
 
+  .text-banner
+  {
+    left: 9%;
+  }
+
+  .text-banner2
+  {
+    left: 9%;
+  }
+
+  .navbar2 a 
+  {
+    font-size: 17px;
+  }
+
   .nav-list2 
   {
     list-style-type: none;
     width: 100%;
     text-align: center;
-    padding-top: 10px;
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
   }
 
+  .titlo
+  {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .titlo2
+  {
+    font-size: 20px;
+    padding: 10px;
+  }
   .nav-list .list-item
   {
     display: block;
