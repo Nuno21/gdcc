@@ -20,7 +20,14 @@
             </div>
             <ul class="nav-list" id="navi-list">
                 <li class="list-item">
-                    <a href="#">CLUBE</a>
+                    <button class="btn" id="drop-list">CLUBE
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="historia.html">HISTÓRIA</a>
+                        <a href="palmares.html">PALMARÉS</a>
+                        <a href="orgaos.html">ÓRGÃO SOCIAIS</a>
+                    </div>
                 </li>
                 <li class="list-item" >
                     <a href="#">SÓCIOS</a>
@@ -54,9 +61,7 @@
                 <div class="menu-line"></div>
             </div>
         </nav> 
-    
-    <p class="text-banner">ESTE É O NOSSO ADN</p>
-    </div> 
+    </div>   
     <section class="jogos">
         <h1>JOGOS DO GDCC</h1>
         <div class="row">
@@ -73,7 +78,7 @@
                         <p><strong>21:30H</strong></p>
                     </div>
                     <div class="column3">
-                        <img src="imagens/16440_imgbank (2).png" style="height: 80px;">
+                        <img src="imagens/16440_imgbank (2).png">
                     </div>
                 </div>
                 <p>GDR RETORTA X GDC COHAEMATO</p>
@@ -85,7 +90,7 @@
                 </div>
                 <div class="row4">
                     <div class="column3">
-                        <img src="imagens/16440_imgbank (2).png" style="height: 80px;">
+                        <img src="imagens/16440_imgbank (2).png">
                     </div>
                     <div class="column3">
                         <p><strong>21:30H</strong></p>
@@ -103,7 +108,7 @@
                 </div>
                 <div class="row4">
                     <div class="column3">
-                        <img src="imagens/16440_imgbank (2).png" style="height: 80px;">
+                        <img src="imagens/16440_imgbank (2).png">
                     </div>
                     <div class="column3">
                         <p><strong>21:30H</strong></p>
@@ -192,6 +197,17 @@
         drop.classList.toggle('active');
     })
 
+    function show()
+    {   
+        document.getElementById('img-1').style.display="none";
+        document.getElementById('img-2').style.display="block";
+    }
+
+    function show2()
+    {   
+        document.getElementById('img-1').style.display="block";
+        document.getElementById('img-2').style.display="none";
+    }
 
 </script>
 </body> 

@@ -555,7 +555,6 @@ li.texto
   white-space: nowrap;
   padding-left: 15px;
   padding-right: 15px;
-
 }
 
 .imgC
@@ -712,7 +711,6 @@ footer
   .nav-list .list-item
   {
     display: block;
-    border-top: 1px solid white;
     padding: 10px;
     animation: growDown 300ms ease-in-out forwards;
     transform-origin: top center;
@@ -849,8 +847,13 @@ footer
 
   .row4
   {
-    margin: 0px;
-    
+    margin-left: 85px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 0;
+    width: 250px;
   }
 
   .column3
@@ -873,20 +876,24 @@ footer
 
   .clube1
   {
-    font-size: 10px;
+    display: none;
   }
 
   .clube2
   {
-    font-size: 10px;
-    width: 100%;
+   display: none;
   }
 
   .imgC
   {
-    height: 45px;
+    height: 75px;
     margin: 0px;
-    
+    align-items: center;
+  }
+
+  .imgC img
+  {
+    height: 65px;
   }
 
   .row5
