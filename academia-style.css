@@ -197,6 +197,7 @@
   justify-content: left;
   align-items: left;
   padding-left: 310px;
+  
 }
 
 .navbar2 a
@@ -206,10 +207,21 @@
   text-decoration: none;
 }
 
-
-.navbar2 a:hover
+.navbar2 a::before
 {
-  border-bottom: 5px solid #028b26;
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #028b26;
+  transition: all ease-in-out 250ms;
+  position: absolute;
+  bottom: 15px;
+}
+
+.navbar2 a:hover::before
+{
+  width: 88%;
 }
 
 .nav-list2
@@ -221,12 +233,13 @@
 {
   display: inline-block;
   padding: 20px 10px;
+  position: relative;
 }
   
 
 .informacao
 {
- background-color: #f1f1f1;
+ background-color: #f8f8f8;
  margin-bottom: 20px;
  animation: fadeIn 500ms ease-in;
 }
@@ -303,7 +316,7 @@ li.texto
 
 .responsaveis
 {
-  background-color: #fafbfc;
+  background-color: #f8f8f8;
   display: none;
   margin-bottom: 20px;
   animation: fadeIn 500ms ease-in;
@@ -454,7 +467,6 @@ footer
   .nav-list .list-item
   {
     display: block;
-    
     padding: 10px;
     animation: growDown 300ms ease-in-out forwards;
     transform-origin: top center;

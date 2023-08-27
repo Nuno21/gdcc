@@ -226,9 +226,21 @@ body
   text-decoration: none;
 }
 
-.navbar2 a:hover
+.navbar2 a::before
 {
-  border-bottom: 5px solid #028b26;
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #028b26;
+  transition: all ease-in-out 250ms;
+  position: absolute;
+  bottom: 15px;
+}
+
+.navbar2 a:hover::before
+{
+  width: 88%;
 }
 
 .nav-list2
@@ -240,7 +252,9 @@ body
 {
   display: inline-block;
   padding: 20px 10px;
+  position: relative;
 }
+  
 
 @keyframes fadeIn 
 {  
@@ -547,10 +561,13 @@ footer
 
   .nav-list2 
   {
+    display: flex;
     list-style-type: none;
     width: 100%;
     text-align: center;
     padding-top: 10px;
+    overflow-x: scroll;
+    
   }
 
   .nav-list .list-item
