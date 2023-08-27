@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="resultadosform-style.css">
+    <script src="https://kit.fontawesome.com/775d186b2c.js" crossorigin="anonymous"></script>
+    <title>RESULTADOS JUVENIS</title>
+    <link rel="icon" type="images/x-icon" href="imagens/16440_imgbank (2).png" />
+</head>
+<body>
+    <div class="banner">
+        <nav class="navbar">
+            <div class="header">
+               <a href="index.html">
+                <img class="logo" src="imagens/16440_imgbank (2).png">
+                <h1>GDC COHAEMATO</h1>
+               </a> 
+            </div>
+            <ul class="nav-list" id="nav-list">
+                <li class="list-item">
+                    <button class="btn" id="drop-list">CLUBE
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="historia.html">HISTÓRIA</a>
+                        <a href="palmares.html">PALMARÉS</a>
+                        <a href="orgaos.html">ÓRGÃO SOCIAIS</a>
+                    </div>
+                </li>
+                <li class="list-item" >
+                    <a href="#">SÓCIOS</a>
+                </li>
+                <li class="list-item">
+                    <button class="btn" id="drop-list">FUTSAL
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="academia.html">ACADEMIA</a>
+                        <a href="formacao.html">FORMAÇÃO</a>
+                        <a href="seniores.html">SÉNIORES</a>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <a href="#">SPONSORS</a>
+                </li>
+                <li class="list-item">
+                    <button class="btn" id="drop-list">RESULTADOS
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content2">
+                        <a href="resultadosbenjamins.html">FORMAÇÃO</a>
+                        <a href="resultadosserniores.html">SÉNIORES</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="menu" id="toggle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+    <p class="text-banner">RESULTADOS</p>
+    <strong><p class="text-banner2">FORMAÇÃO</p></strong>
+    </div>
+        <section class="nav">
+        <div class="navbar2">
+            <ul class="nav-list2">
+                <li class="list-item2">
+                    <a href="resultadosbenjamins.html"><strong>BENJAMINS</a></strong>
+                </li>
+                <li class="list-item2">
+                    <a href="resultadosinfantis.html"><strong>INFANTIS</a></strong>
+                </li>
+                <li class="list-item2">
+                    <a href="resultadosiniciados.html"><strong>INICIADOS</a></strong>
+                </li>
+                <li class="list-item2">
+                    <a href="resultadosjuvenis.html"><strong>JUVENIS</a></strong>
+                </li>
+                <li class="list-item2">
+                    <a href="resultadosjuniores.html"><strong>JUNIORES</a></strong>
+                </li>
+            </ul>
+        </div>
+        </section>
+       
+        <section id="JUVENIS" class="classificacao">
+            <div class="row">
+                <div class="column">
+                    <h2 class="titlo">JUVENIS</h2>  
+                    <div class="row3">
+                        <div class="column3">
+                            <p><strong>07 OUT 2023</strong></p>
+                            <p>20:00H</p>
+                        </div>
+                        <div class="column3">
+                            <div class="row4">
+                                <div class="clube1">GDR RETORTA</div>
+                                <div class="imgC">
+                                    <img src="imagens/RETORTA.png">
+                                </div>
+                                <div class="column4">
+                                    <div class="row6">
+                                        <div class="column5">2</div>
+                                        <div class="column5">-</div>
+                                        <div class="column5" style="color: #028b26;">6</div>
+                                    </div>
+                                </div>
+                                <div class="imgC">
+                                    <img src="imagens/16440_imgbank (2).png">
+                                </div>
+                                <div class="clube2">GDC COHAEMATO</div>  
+                            </div>
+                        </div>
+                        <div class="column3">
+                            <p><strong>AF PORTO FUTSAL DIVISÃO DE ELITE</strong></p>
+                            <p>1ª JORNADA</p>
+                        </div>
+                        <div></div>
+                        <div class="row5">
+                            PAVILHÃO GDC COHAEMATO
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="redes">
+            <p><strong>REDES SOCIAIS</strong></p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/cohaemato/" target="_blank"><i class='fab fa-instagram'></i></a></i>
+                    <a href="https://www.facebook.com/GDCCohaemato" target="_blank"><i class='fab fa-facebook'></i></a>
+                </div>
+        </section>
+
+<footer>
+        <p>© 2023 Grupo Desportivo Cultural Cohaemato</p>
+</footer>
+
+<script>
+    const toggleButton = document.getElementById('toggle-button');
+    const naviList = document.getElementById('nav-list'); 
+
+    toggleButton.addEventListener('click', () => {
+        naviList.classList.toggle('active');
+    });
+
+    const drop = document.getElementById('drop-list');
+
+    drop.addEventListener('click', () => {
+        drop.nextElementSibling.classList.toggle('active');
+    });
+
+</script>
+</body>
+</html>

@@ -332,6 +332,7 @@ li.texto
   background-color: #fafbfc;
   margin-bottom: 20px;
   animation: fadeIn 500ms ease-in;
+  min-height: 450px;
 }
 
 .row3
@@ -523,6 +524,8 @@ footer
 
 @media all and (max-width: 600px) 
 {
+
+
   .navbar
   {
     flex-direction: column;
@@ -686,8 +689,13 @@ footer
 
   .row4
   {
-    margin: 0px;
-    
+    margin-left: 85px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 0;
+    width: 250px;
   }
 
   .column3
@@ -706,25 +714,27 @@ footer
     display: block;
     margin: 0px;
     padding: 0px;
+    margin-left: 5px;
   }
 
   .clube1
   {
-    font-size: 10px;
-    
+    display: none;
   }
 
   .clube2
   {
-    font-size: 10px;
-    width: 100%;
+    display: none;
   }
 
   .imgC
   {
-    height: 45px;
-    margin: 0px;
-    
+    height: 65px;
+  }
+
+  .imgC img
+  {
+    height: 65px;
   }
 
   .row5
