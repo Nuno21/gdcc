@@ -8,7 +8,7 @@
   body 
   {
     min-height: 100vh;
-    background-color: #fafbfc;
+    background-color: #f8f8f8;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -193,7 +193,7 @@
 
   .palmares
   {
-    background-color: #fafbfc;
+    background-color: #f8f8f8;
     margin-bottom: 20px;
     animation: fadeIn 500ms ease-in;
     min-height: 450px;

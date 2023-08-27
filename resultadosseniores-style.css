@@ -8,7 +8,7 @@
   body 
   {
     min-height: 100vh;
-    background-color: #fafbfc;
+    background-color: #f8f8f8;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -275,7 +275,7 @@
 
 .column 
 {
-  background-color: #fafbfc;
+  background-color: #f8f8f8;
   justify-content: center;
   display: inline-block;
   width: 75%;
@@ -469,7 +469,7 @@ li.texto
 
 .classificacao
 {
-  background-color: #fafbfc;
+  background-color: #f8f8f8;
   margin-bottom: 20px;
   animation: fadeIn 500ms ease-in;
   min-height: 450px;
@@ -840,7 +840,6 @@ footer
 
   .row5
   {
-    margin-left: 85px;
     justify-content: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
@@ -853,7 +852,6 @@ footer
   {
     justify-content: center;
     align-items: center;
-    display: block;
     margin: 0px;
     padding: 0px;
   }
@@ -893,7 +891,6 @@ footer
   {
     transform: none;
   }
-
 
   .row3
   {

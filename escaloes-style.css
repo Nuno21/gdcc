@@ -8,7 +8,7 @@
   body 
   {
     min-height: 100vh;
-    background-color: #fafbfc;
+    background-color: #f8f8f8;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -266,7 +266,7 @@
 
 .column1 
 {
-  background-color: #fafbfc;
+  background-color: #f8f8f8;
   justify-content: center;
   display: inline-block;
   width: 69%;
@@ -315,7 +315,7 @@ li.texto
 
 .plantel
 {
-  background-color: #fafbfc;
+  background-color: #f8f8f8;
   margin-bottom: 20px;
   animation: fadeIn 500ms ease-in;
 }
@@ -381,7 +381,7 @@ li.texto
 
 .eqtecnica
 {
-  background-color: #fafbfc;
+  background-color: #f8f8f8;
   margin-bottom: 20px;
   animation: fadeIn 500ms ease-in-out;
   display: none;
@@ -494,10 +494,11 @@ li.texto
 
 .calendario
 {
-  background-color: #fafbfc;
+  background-color: #f8f8f8;
   margin-bottom: 20px;
   animation: fadeIn 500ms ease-in;
   display: none; 
+  
 }
 
 .row3
@@ -847,7 +848,7 @@ footer
 
   .row4
   {
-    margin-left: 85px;
+   
     justify-content: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
@@ -860,7 +861,6 @@ footer
   {
     justify-content: center;
     align-items: center;
-    display: block;
     margin: 0px;
     padding: 0px;
   }

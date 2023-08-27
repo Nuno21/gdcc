@@ -8,7 +8,7 @@
 body 
   {
     min-height: 100vh;
-    background-color: #fafbfc;
+    background-color: #f8f8f8;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -689,7 +689,7 @@ footer
 
   .row4
   {
-    margin-left: 85px;
+    
     justify-content: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
@@ -702,7 +702,6 @@ footer
   {
     justify-content: center;
     align-items: center;
-    display: block;
     margin: 0px;
     padding: 0px;
   }

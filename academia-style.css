@@ -8,7 +8,7 @@
   body 
   {
     min-height: 100vh;
-    background-color: #fafbfc;
+    background-color: #f8f8f8;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -226,7 +226,7 @@
 
 .informacao
 {
- background-color: #fafbfc;
+ background-color: #f1f1f1;
  margin-bottom: 20px;
  animation: fadeIn 500ms ease-in;
 }
@@ -255,7 +255,7 @@
 }
 .column 
 {
-  background-color: #fafbfc;
+  background-color: #f8f8f8;
   justify-content: center;
   display: inline-block;
   width: 75%;
