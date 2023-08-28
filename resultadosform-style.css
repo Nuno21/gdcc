@@ -345,7 +345,7 @@ li.texto
 {
   background-color: #fafbfc;
   margin-bottom: 20px;
-  animation: fadeIn 500ms ease-in;
+  animation: fadeIn 1000ms ease-in-out; 
   min-height: 450px;
 }
 
@@ -759,6 +759,21 @@ footer
   }
   
 }
+
+@media all and (max-width: 1500px)
+{
+  .row
+  {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .column
+  {
+    width: 80%;
+  }
+}
+
 
 
 

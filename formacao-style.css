@@ -239,7 +239,7 @@
 {
  background-color: #f8f8f8;
  margin-bottom: 20px;
- animation: fadeIn 500ms ease-in;
+ animation: fadeIn 1000ms ease-in-out; 
 }
 
 @keyframes fadeIn {  
@@ -314,7 +314,7 @@ li.texto
   background-color: #f8f8f8;
   display: none;
   margin-bottom: 20px;
-  animation: fadeIn 500ms ease-in;
+  animation: fadeIn 1000ms ease-in-out; 
 }
 
 .row2
@@ -403,7 +403,7 @@ li.texto
   background-color: #f8f8f8;
   display: none;
   margin-bottom: 20px;
-  animation: fadeIn 500ms ease-in;
+  animation: fadeIn 1000ms ease-in-out; 
 }
 
 .row3

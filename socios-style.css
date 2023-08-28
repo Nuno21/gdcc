@@ -241,14 +241,8 @@
   position: relative;
 }
 
-.list-item2.active>a
-{
-  padding-bottom: 1px;
-  border-bottom: solid 5px #028b26;
-}
+
   
-
-
 
 @keyframes fadeIn 
 {  
@@ -682,6 +676,12 @@ footer
     padding: 10px;
   }
 
+  .informacao
+  {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
   .row3 
   {
     width: 100%;
@@ -703,7 +703,6 @@ footer
     padding: 10px;
   }
 
-
   .column3 ul 
   {
     margin: 0;
@@ -711,8 +710,6 @@ footer
     width: 80%;
     display: grid;
   }
-
-
 
   .column3 p 
   {
@@ -731,7 +728,8 @@ footer
     font-size: 15px;
     padding-top: 5px;
     display: block;
-    text-align: center;
+    text-align: left;
+    padding-left: 15px;
   }
 
 }

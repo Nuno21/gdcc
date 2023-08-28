@@ -271,7 +271,7 @@
 
 .resultados
 {
-  animation: fadeIn 500ms ease-in;
+  animation: fadeIn 1000ms ease-in-out; 
   min-height: 450px;
 }
 
@@ -485,7 +485,7 @@ li.texto
 {
   background-color: #f8f8f8;
   margin-bottom: 20px;
-  animation: fadeIn 500ms ease-in;
+  animation: fadeIn 1000ms ease-in-out; 
   min-height: 450px;
 }
 
@@ -1001,8 +1001,20 @@ footer
     justify-content: center;
     height: 30px;
   }
+}
 
+@media all and (max-width: 1500px)
+{
+  .row
+  {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 
+  .column
+  {
+    width: 80%;
+  }
 }
 
 

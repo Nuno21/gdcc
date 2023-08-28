@@ -331,7 +331,7 @@ li.texto
 {
   background-color: #f8f8f8;
   margin-bottom: 20px;
-  animation: fadeIn 500ms ease-in;
+  animation: fadeIn 1000ms ease-in-out; 
 }
 
 .row2
@@ -397,7 +397,7 @@ li.texto
 {
   background-color: #f8f8f8;
   margin-bottom: 20px;
-  animation: fadeIn 500ms ease-in-out;
+  animation: fadeIn 1000ms ease-in-out; 
   display: none;
 }
 
@@ -510,7 +510,7 @@ li.texto
 {
   background-color: #f8f8f8;
   margin-bottom: 20px;
-  animation: fadeIn 500ms ease-in;
+  animation: fadeIn 1000ms ease-in-out; 
   display: none; 
   
 }

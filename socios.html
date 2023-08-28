@@ -64,8 +64,8 @@
         <section class="nav">
         <div class="navbar2">
             <ul class="nav-list2">
-                <li class="list-item2 active">
-                    <a><strong>CATEGORIAS</a></strong>
+                <li class="list-item2">
+                    <a href="#categorias"><strong>CATEGORIAS</a></strong>
                 </li>
                 <li class="list-item2">
                     <a href="#informacao"><strong>INFORMAÇÕES</a></strong>
@@ -198,25 +198,23 @@
     </footer>
     
     <script>
-        
+          
         const toggleButton = document.getElementById('toggle-button');
-        const naviList = document.getElementById('navi-list');
-    
+        const naviList = document.getElementById('nav-list');
+
         toggleButton.addEventListener('click', () =>
         {
-            naviList.classList.toggle('active');
+         naviList.classList.toggle('active');
         })
 
-        $(document).ready(function () {
- 
-        $('ul.nav-list2 > li')
-         .click(function (e) {
-        $('ul.nav-list2 > li')
-         .removeClass('active');
-        $(this).addClass('active');
-        });
-        });
     
+        const drop = document.getElementById('drop-list');
+
+        toggleButton.addEventListener('click', () =>
+        {
+        drop.classList.toggle('active');
+        })
+
     </script>   
 </body>
 </html>
