@@ -91,8 +91,7 @@
        
         <section id="resultados" class="resultados">
             <div class="row">
-                <div class="column">
-                    <h2 class="titlo">RESULTADOS</h2>  
+                <div class="column"> 
                     <div class="row4">
                         <div class="column3">
                             <p><strong>07 OUT 2023</strong></p>
@@ -130,3 +129,26 @@
                 </div>
             </div>
         </section>
+
+        
+    <footer>
+    <p>© 2023 Grupo Desportivo Cultural Cohaemato</p>
+    </footer>
+
+        <script>
+            const toggleButton = document.getElementById('toggle-button');
+            const naviList = document.getElementById('nav-list'); 
+        
+            toggleButton.addEventListener('click', () => {
+                naviList.classList.toggle('active');
+            });
+        
+            const drop = document.getElementById('drop-list');
+        
+            drop.addEventListener('click', () => {
+                drop.nextElementSibling.classList.toggle('active');
+            });
+        </script>
+
+</body>
+</html>

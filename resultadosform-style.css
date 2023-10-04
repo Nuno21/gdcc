@@ -235,7 +235,7 @@ body
   background-color: #028b26;
   transition: all ease-in-out 250ms;
   position: absolute;
-  bottom: 15px;
+  bottom: 16px;
 }
 
 .navbar2 a:hover::before
@@ -255,6 +255,10 @@ body
   position: relative;
 }
   
+.activo
+{
+  border-bottom: 5px solid #028b26;
+}
 
 @keyframes fadeIn 
 {  
@@ -285,10 +289,11 @@ body
   background-color: #fafbfc;
   justify-content: center;
   display: inline-block;
-  width: 75%;
+  width: 70%;
   position: relative;
   flex-direction: column;
   margin: 0;
+  
 }
 
 .titlo

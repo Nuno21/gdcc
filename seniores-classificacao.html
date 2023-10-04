@@ -95,7 +95,7 @@
 <section id="classificacao" class="classificacao">
     <div class="row">
         <div class="column">
-            <h2 class="titlo">TABELA CLASSIFICATIVA</h2>
+            
             <div class="row-header">
                 <div class="posicao">
                     <div class="pos"><strong>POS</strong></div>
@@ -425,6 +425,19 @@
 </footer>
 
 
+<script>
+    const toggleButton = document.getElementById('toggle-button');
+    const naviList = document.getElementById('nav-list'); 
+
+    toggleButton.addEventListener('click', () => {
+        naviList.classList.toggle('active');
+    });
+
+    const drop = document.getElementById('drop-list');
+
+    drop.addEventListener('click', () => {
+        drop.nextElementSibling.classList.toggle('active');
+    });
 </script>
 </body>
 </html>

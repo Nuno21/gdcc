@@ -260,16 +260,17 @@
   align-items: center;
   margin-left: 80px;
   margin-right: 80px;
+  
 }
 .column 
 {
   background-color: #f8f8f8;
   justify-content: center;
   display: inline-block;
-  width: 75%;
+  width: 90%;
   position: relative;
   flex-direction: column;
-  margin: 0;
+  margin: 0;      
 }
 
 .titlo
@@ -341,8 +342,8 @@ li.texto
 .column2 
 {
   position: relative;
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   margin: 10px;
   border-radius: 5px;
   display: inline-block;
@@ -429,9 +430,9 @@ li.texto
 
 .column3
 {
-  background-color: #fff;
-  width: 300px;
-  height: 400px;
+  background-color: #ccc;
+  width: 250px;
+  height: 325px;
   margin: 10px;
   border-radius: 5px;
   display: inline-block;
@@ -443,8 +444,7 @@ li.texto
 .column3 img
 {
   width: 100%;
-  height: 300px;
-}
+} 
 
 .column3 p
 {
