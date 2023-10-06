@@ -38,7 +38,7 @@
                     <div class="dropdown-content">
                         <a href="academia.html">ACADEMIA</a>
                         <a href="formacao.html">FORMAÇÃO</a>
-                        <a href="seniores.html">SÉNIORES</a>
+                        <a href="seniores.plantel.html">SÉNIORES</a>
                     </div>
                 </li>
                 <li class="list-item">
@@ -69,10 +69,10 @@
         <div class="navbar2">
             <ul class="nav-list2">
                 <li class="list-item2">
-                    <a onclick="show()"><strong>INFORMAÇÕES</a></strong>
+                    <a href="academia.html" class="activo"><strong>INFORMAÇÕES</a></strong>
                 </li>
                 <li class="list-item2">
-                    <a onclick="show2()"><strong>RESPONSAVEIS</a></strong>
+                    <a href="academia-responsaveis.html"><strong>RESPONSAVEIS</a></strong>
                 </li>
             </ul>
         </div>
@@ -81,7 +81,6 @@
         <section id="informacao" class="informacao">
             <div class="row">
             <div class="column">
-                <h1 class="titlo">INFORMAÇÕES</h1>
                 <h3 class="subtitlo">Objetivos:</h3>
                 <ul>
                     <li class="texto">
@@ -141,31 +140,6 @@
         </div>
         </section>
 
-        <section id="responsaveis"class="responsaveis">
-            <div class="row">
-              <div class="column">
-                <h2 class="titlo2">RESPONSÁVEIS</h2>
-                <div class="row2">
-                    <div class="column2">
-                        <img src="imagens/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.webp">
-                        <p>Miguel Moura</p>
-                        <h2>Coordenador da Formação</h2>
-                    </div>
-                    <div class="column2">
-                        <img src="imagens/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.webp">
-                        <p>Gonçalo Barra</p>
-                        <h2>Treinador da Formação</h2>
-                    </div>
-                    <div class="column2">
-                        <img src="imagens/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.webp">
-                        <p>###</p>
-                        <h2>###</h2>
-                    </div>
-                </div>
-              </div>  
-            </div>     
-        </section>
-    
         <section class="redes">
             <p><strong>REDES SOCIAIS</strong></p>
                 <div class="icons">
@@ -192,17 +166,6 @@
         drop.nextElementSibling.classList.toggle('active');
     });
 
-    function show()
-    {   
-        document.getElementById('informacao').style.display="block";
-        document.getElementById('responsaveis').style.display="none";
-    }
-
-    function show2()
-    {   
-        document.getElementById('responsaveis').style.display="block";
-        document.getElementById('informacao').style.display="none";
-    }
 </script>
 </body>
 </html>

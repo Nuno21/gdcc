@@ -215,12 +215,12 @@
   background-color: #028b26;
   transition: all ease-in-out 250ms;
   position: absolute;
-  bottom: 15px;
+  bottom: 16px;
 }
 
 .navbar2 a:hover::before
 {
-  width: 88%;
+  width: 89%;
 }
 
 .nav-list2
@@ -234,6 +234,11 @@
   padding: 20px 10px;
   position: relative;
 }
+
+.activo
+{
+  border-bottom: 5px solid #028b26;
+}   
   
 .informacao
 {
@@ -242,12 +247,15 @@
  animation: fadeIn 1000ms ease-in-out; 
 }
 
-@keyframes fadeIn {  
-  from {  
+@keyframes fadeIn 
+{  
+  from 
+  {  
       opacity:0;  
   }  
 
-  to {  
+  to 
+  {  
       opacity:1;  
   }  
 }
@@ -267,7 +275,7 @@
   background-color: #f8f8f8;
   justify-content: center;
   display: inline-block;
-  width: 90%;
+  width: 70%;
   position: relative;
   flex-direction: column;
   margin: 0;      
@@ -313,9 +321,9 @@ li.texto
 .escaloes
 {
   background-color: #f8f8f8;
-  display: none;
   margin-bottom: 20px;
   animation: fadeIn 1000ms ease-in-out; 
+  min-height: 330px;
 }
 
 .row2
@@ -326,30 +334,46 @@ li.texto
   align-items: center;
 }
 
-.titlo2
+.column2
 {
-  border-bottom: 2px solid #33333371;
-  color: #028b26;
-  display: flex;
-  justify-content: left;
-  text-align: left;
-  position: relative;
-  font-size: 30px;
-  width: 100%;
-  padding: 20px;
+    background-color: #fff;
+    width: 200px;
+    height: 265px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.column2 
+.escalao
 {
-  position: relative;
-  width: 250px;
-  height: 250px;
-  margin: 10px;
-  border-radius: 5px;
-  display: inline-block;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color: #2f683e;
+    width: 100%;
+    color: #f8f8f8;
+    padding: 20px;
+    font-size: 25px; 
+}
+
+.descricao  
+{
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  color: #474747;     
+} 
+
+.column2 a
+{
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  color: #028b26;  
+  text-decoration: none;    
 }
 
 .column img
@@ -402,7 +426,6 @@ li.texto
 .responsaveis
 {
   background-color: #f8f8f8;
-  display: none;
   margin-bottom: 20px;
   animation: fadeIn 1000ms ease-in-out; 
 }

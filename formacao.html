@@ -38,7 +38,7 @@
                     <div class="dropdown-content">
                         <a href="academia.html">ACADEMIA</a>
                         <a href="formacao.html">FORMAÇÃO</a>
-                        <a href="seniores.html">SÉNIORES</a>
+                        <a href="seniores.plantel.html">SÉNIORES</a>
                     </div>
                 </li>
                 <li class="list-item">
@@ -65,17 +65,17 @@
             </div>
         </nav>
     </div>
-        <section class="nav">
+    <section class="nav">
         <div class="navbar2">
             <ul class="nav-list2">
                 <li class="list-item2">
-                    <a onclick="show()"><strong>INFORMAÇÕES</a></strong>
+                    <a href="formacao.html" class="activo"><strong>INFORMAÇÕES</a></strong>
                 </li>
                 <li class="list-item2">
-                    <a onclick="show2()"><strong>ESCALÕES</a></strong>
+                    <a href="formacao-escaloes.html"><strong>ESCALÕES</a></strong>
                 </li>
                 <li class="list-item2">
-                    <a onclick="show3()"><strong>RESPONSÁVEIS</a></strong>
+                    <a href="formacao-responsaveis.html"><strong>RESPONSÁVEIS</a></strong>
                 </li>
             </ul>
         </div>
@@ -84,7 +84,7 @@
         <section id="informacao" class="informacao">
             <div class="row">
             <div class="column">
-                <h1 class="titlo">INFORMAÇÕES</h1>
+                
                 <h3 class="subtitlo">Objetivos:</h3>
                 <ul>
                     <li class="texto">
@@ -162,71 +162,6 @@
         </div>
         </section>
 
-        <section id="escaloes"class="escaloes">
-            <div class="row">
-              <div class="column">
-                <div class="row2">
-                    <div class="column2">
-                        <img src="imagens/sub11.png">
-                        <a href="benjamins.plantel.html">
-                            <div class="overlay">
-                            <p>MAIS INFORMAÇÕES</p>
-                        </a>
-                        </div>
-                    </div>
-                    <div class="column2">
-                        <img src="imagens/sub13.png">
-                        <a href="infantis.plantel.html">
-                            <div class="overlay">
-                            <p>MAIS INFORMAÇÕES</p>
-                        </a>
-                        </div>
-                    </div>
-                    <div class="column2">
-                        <img src="imagens/sub15.png">
-                        <a href="iniciados.plantel.html">
-                            <div class="overlay">
-                            <p>MAIS INFORMAÇÕES</p>
-                        </a>
-                        </div>
-                    </div>
-                    <div class="column2">
-                        <img src="imagens/sub17.png">
-                        <a href="juvenis.plantel.html">
-                            <div class="overlay">
-                            <p>MAIS INFORMAÇÕES</p>
-                        </a>
-                        </div>
-                    </div>
-                    <div class="column2">
-                        <img src="imagens/sub19.png">
-                        <a href="juniores.plantel.html">
-                            <div class="overlay">
-                            <p>MAIS INFORMAÇÕES</p>
-                        </a>
-                        </div>
-                    </div>
-                </div>
-              </div>  
-            </div>     
-        </section>
-
-        <section id="responsaveis"class="responsaveis">
-            <div class="row">
-              <div class="column">
-                <div class="row3">
-                    <div class="column3">
-                        
-                    </div>
-                    <div class="column3">
-                        
-                    </div>
-                    
-                </div>
-              </div>  
-            </div>     
-        </section>
-        
         <section class="redes">
             <p><strong>REDES SOCIAIS</strong></p>
                 <div class="icons">
@@ -252,26 +187,6 @@
     drop.addEventListener('click', () => {
         drop.nextElementSibling.classList.toggle('active');
     });
-
-    function show()
-    {   
-        document.getElementById('informacao').style.display="block";
-        document.getElementById('escaloes').style.display="none";
-        document.getElementById('responsaveis').style.display="none";
-    }
-
-    function show2()
-    {   
-        document.getElementById('escaloes').style.display="block";
-        document.getElementById('informacao').style.display="none";
-        document.getElementById('responsaveis').style.display="none"
-    }
-    function show3()
-    {   
-        document.getElementById('escaloes').style.display="none";
-        document.getElementById('informacao').style.display="none";
-        document.getElementById('responsaveis').style.display="block"
-    }
 
 </script>
 </body>
