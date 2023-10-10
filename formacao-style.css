@@ -242,9 +242,12 @@
   
 .informacao
 {
- background-color: #f8f8f8;
- margin-bottom: 20px;
- animation: fadeIn 1000ms ease-in-out; 
+  background-color: #2f683ed3;
+  margin-bottom: 20px;
+  animation: fadeIn 1000ms ease-in-out; 
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin-top: 20px; 
 }
 
 @keyframes fadeIn 
@@ -257,49 +260,38 @@
   to 
   {  
       opacity:1;  
-  }  
+  }   
 }
 
 .row
 {
-  display: flex;
-  flex-wrap: wrap;
+  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   justify-content: center;
-  align-items: center;
-  margin-left: 80px;
+  align-items:center;
+  margin-left: 300px;
   margin-right: 80px;
   
 }
+
 .column 
 {
-  background-color: #f8f8f8;
-  justify-content: center;
-  display: inline-block;
-  width: 70%;
-  position: relative;
-  flex-direction: column;
-  margin: 0;      
-}
-
-.titlo
-{
-  border-bottom: 2px solid #33333371;
-  color: #028b26;
-  display: flex;
   justify-content: left;
-  text-align: left;
-  position: relative;
-  font-size: 30px;
-  width: 100%;
-  padding: 20px;
+  align-items: left ;
+  display: flex;
+  position: relative; 
+  flex-direction: column;
+  margin: 0;
 }
 
 .subtitlo
 {
-  color: #028b26;
+  color: #ffffff;
   display: flex;
   justify-content: left;
-  text-align: center;
+  text-align: left;
   position: relative;
   font-size: 30px;
   width: 100%;
@@ -310,8 +302,9 @@
 li.texto
 {
   position: relative;
-  color: #505050;
-  justify-content:space-between;
+  color: #ffffff; 
+  justify-content: left;
+  text-align: left;
   font-size: 15px;
   width: 100%;
   padding: 2px;

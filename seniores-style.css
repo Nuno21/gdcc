@@ -426,7 +426,6 @@ li.texto
   background-color: #f8f8f8;
   margin-bottom: 20px;
   animation: fadeIn 1000ms ease-in-out; 
-  display: none;
 }
 
 .more

@@ -539,7 +539,7 @@ li.texto
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  background-color: #028b26;
+  
   height: 65px;
   justify-content: center;
   align-items: center;
