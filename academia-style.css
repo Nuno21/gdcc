@@ -269,7 +269,7 @@
 {
   
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   justify-content: center;
   align-items:center;
@@ -311,6 +311,11 @@ li.texto
   width: 100%;
   padding: 2px;
   left: 60px
+}
+
+.row img
+{
+  height: 600px;
 }
 
 .responsaveis
@@ -625,4 +630,14 @@ footer
     display: block;
     text-align: center;
   }
+
+  .row
+  {
+    grid-template-columns: 1fr;
+  }
+
+  .row img
+  {
+    display: none;
+  } 
 }

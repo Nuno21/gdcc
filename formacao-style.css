@@ -521,6 +521,85 @@ li.texto
   animation: zoom-in-zoom-out 1s ease-in;
 }
 
+.titlo
+{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  font-size: 35px;
+  color: #303030;
+  padding-top: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.subtitlo2
+{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  color: #494949;
+  padding-top: 10px;
+  padding-bottom: 45px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.talentos
+{
+  background-color: #f8f8f8;
+  margin-bottom: 20px;
+  animation: fadeIn 1000ms ease-in-out; 
+  min-height: 330px;
+}
+
+.row4
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.column4
+{
+  display: grid;
+  width: 485px;
+  height: 600px;
+  margin: 25px;
+}
+
+.column4 img
+{
+  width: 485px;
+  height: 485px;
+}
+
+.nome
+{
+  display: flex;
+  position: relative;
+  justify-content: left;
+  text-align: center;
+  font-size: 25px;
+  color: #028b26;
+}
+
+.clube
+{
+  display: flex;
+  position: relative;
+  justify-content: left;
+  text-align: center;
+  font-size: 20px;
+  color: #333333;
+}
+
+
 footer
 {
   position: relative;
@@ -580,12 +659,6 @@ footer
     white-space: nowrap;
     justify-content: center;
     align-items: center;
-  }
-
-  .titlo
-  {
-    font-size: 20px;
-    padding: 10px;
   }
 
   .titlo2
@@ -749,4 +822,29 @@ footer
     display: block;
     text-align: center;
   }
+
+  .titlo
+  {
+    font-size: 25px;
+  }
+
+  .subtitlo2
+  {
+    font-size: 15px;
+  }
+  
+
+  .row4
+  {
+    width: 100%;
+    margin: 0;
+  }
+
+  .column4
+  {
+    display: grid;
+    width: 100%;
+    margin: 0;
+  }
+
 }
