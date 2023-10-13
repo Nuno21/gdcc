@@ -280,14 +280,14 @@ body
   justify-content: center;
   align-items: center;
   padding: 0px;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 90px;
+  margin-right: 90px;
   margin-bottom: 50px;
 }
 
 .column 
 {
-  background-color: #fafbfc;
+  background-color: #f8f8f8;
   justify-content: center;
   display: inline-block;
   width: 70%;
