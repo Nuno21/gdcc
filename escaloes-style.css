@@ -744,11 +744,6 @@ footer
     display: none;
   }
 
- .row7
- {
-  padding-left: 25px;
- }
-
   .navbar2 a 
   {
     font-size: 17px;
@@ -981,6 +976,7 @@ footer
   {
     left: -2%;
     bottom: 20px;
+    padding-left: 25px;
   }
 
 }

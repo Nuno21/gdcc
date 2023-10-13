@@ -611,6 +611,7 @@ footer
   {
     font-size: 25px;
     transform: translateY(15px);
+    justify-content: center;
   }
 
   .active 
@@ -683,6 +684,21 @@ footer
     white-space: nowrap;
     justify-content: center;
     align-items: center;
+  }
+
+  .row1
+  {
+    width: 100%;
+    margin: 0;
+  }
+
+  .column5
+  {
+    display: grid;
+    width: 100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
   }
 
   .row 
