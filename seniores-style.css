@@ -26,24 +26,30 @@
     
 }
 
+.row8
+{
+  position: absolute;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: left;
+  align-items: left;
+  left: 16.555%;
+  bottom: 20px;
+  width: auto;
+}
+
 .text-banner 
 {
-    position: absolute;
-    color: #ffffff;
-    font-size: 35px;
-    padding: 0px;
-    top: 70%;
-    left: 16.5%;
+    position: relative;
+    color: #028b26;
+    font-size: 20px;
 }
 
 .text-banner2 
 {
-    position: absolute;
+    position: relative;
     color: #fff;
-    font-size: 50px;
-    padding: 0px;
-    top: 80%;
-    left: 16.5%;
+    font-size: 35px; 
 }
 
   .navbar
@@ -280,7 +286,19 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 0px;
+  padding: 0px; 
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 50px;
+}
+
+.row6
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-25px);
 }
 
 .column1 
@@ -288,11 +306,23 @@
   background-color: #f8f8f8;
   justify-content: center;
   display: inline-block;
-  width: 69%;
+  width: 70%;
   position: relative;
   flex-direction: column;
-  margin-left: 90px;
-  margin-right: 90px;
+ 
+}
+
+.column1 h2
+{
+  color: #028b26;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  position: relative;
+  font-size: 30px;
+  width: 100%;
+  padding-bottom: 5px;
+  
 }
 
 .titlo
@@ -458,19 +488,17 @@ li.texto
 
 .readmore
 {
-  
   position: relative;
   padding: 10px;
   display: flex;
   border: none;
   outline: none;
-  cursor:pointer;
-  align-items: center;
+  cursor: pointer;
+  align-content: center;
   justify-content: center;
   background-color: #028b26;
-  margin-top: 10px;
   width: 190px;
-  transform: translateX(29vw);
+  
 }
 
 .readmore a
@@ -488,13 +516,11 @@ li.texto
   display: flex;
   border: none;
   outline: none;
-  cursor:pointer;
-  align-items: center;
+  cursor: pointer;
+  align-content: center;
   justify-content: center;
   background-color: #028b26;
-  margin-top: 10px;
   width: 190px;
-  transform: translateX(29vw);
   display: none;
 }
 
@@ -513,13 +539,11 @@ li.texto
   display: flex;
   border: none;
   outline: none;
-  cursor:pointer;
-  align-items: center;
+  cursor: pointer;
+  align-content: center;
   justify-content: center;
   background-color: #028b26;
-  margin-top: 10px;
   width: 190px;
-  transform: translateX(29vw);
   display: none;
   
 }
@@ -549,7 +573,7 @@ li.texto
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  border-bottom: 2px solid #33333371;
+  border-top: 2px solid #33333371;
 }
 
 .row3 p
@@ -698,6 +722,20 @@ footer
   background-color: #2f683e;
   color: white;
   clear: both;
+}
+
+@media screen and (max-width: 1500px)
+{
+  .row
+  {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .column
+  {
+    width: 80%;
+  }
 }
 
 @media all and (max-width: 600px) 
@@ -860,6 +898,13 @@ footer
     margin: 0;
   }
 
+  .column1 h2
+  {
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+  }
+
   .column2 p 
   {
     font-size: 20px;
@@ -879,10 +924,15 @@ footer
   .row3
   {
     display: block;
-    height: 180px;
+    height: 200px;
     align-items: center;
     margin: 0;
     margin-top: 15px ;
+  }
+
+  .row3:last-child
+  {
+    border-bottom: 2px solid #33333371;
   }
 
   .row4
@@ -902,6 +952,7 @@ footer
     align-items: center;
     margin: 0px;
     padding: 0px;
+    margin-top: 10px;
   }
 
   .column4
@@ -938,6 +989,19 @@ footer
   .row5
   {
     transform: none;
+  }
+
+  .row6
+  {
+    transform: none;
+    margin-bottom: 10px;
+  }
+
+  .row8
+  {
+    left: -2%;
+    bottom: 20px;
+    padding-left: 25px;
   }
 
   

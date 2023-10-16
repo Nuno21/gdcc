@@ -15,18 +15,87 @@ body
   background-position: center;
 }
 
+.slideshow-container 
+{
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
 
+.mySlides 
+{
+  display: none;
+  width: 100%;
+  height: 65vh;
+}
+
+.mySlides img 
+{
+  width: 100%;
+  height: 65vh; 
+  object-fit: cover;
+}
+
+.row5
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.column4
+{
+  color: #f2f2f2;
+  font-size: 50px;
+  padding: 8px 12px;
+  bottom: 35%;
+  left: 10%;
+  text-align: left;
+  display: flex;  
+  width: auto;
+  position: absolute;
+  align-items: center;
+  justify-content: left;
+}
+
+.column5
+{
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  bottom: 46%;
+  left: 10%;
+  text-align: left;
+  display: flex;  
+  width: auto;
+  position: absolute;
+  align-items: center;
+  justify-content: left;
+}
+
+.fade 
+{
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade 
+{
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
 .banner 
 {
-  background-image: url(imagens/Banner-7.png);
-  min-height: 800px;
+  min-height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; 
 }
-
 
 .navbar
 {
@@ -417,11 +486,45 @@ footer
 @media all and (max-width: 600px) 
 {
 
+.mySlides 
+{
+  display: none;
+  width: auto;
+  height: auto;
+}
+
+.mySlides img 
+{
+  width: 100%;
+  height: 75vh; 
+  object-fit: cover;
+}
+
+.row5
+{
+  width: 100%;
+  margin: 0;
+}
+
+.column4
+{
+  font-size: 35px;
+  padding: 8px 12px;
+  bottom: 25%;
+  left: 10%;
+}
+
+.column5
+{
+  font-size: 20px;
+  padding: 8px 12px;
+  bottom: 40%;
+  left: 10%;
+}
   .banner
   {
-    min-height: 350px;
+    min-height: auto;
   }
-
 
   .text-banner 
   {
@@ -589,11 +692,6 @@ footer
       padding-right: 8px;
     }
 
-    .banner
-    {
-      min-height: 650px;
-    }
-
     .column3 
     {
       width: 33.333%;
@@ -605,6 +703,11 @@ footer
     .column3 img
     {
       height: 65px;
+    }
+
+    .mySlides img 
+    {
+      height: auto;
     }
     
   }
