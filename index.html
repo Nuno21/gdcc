@@ -11,26 +11,35 @@
 <body>
 
     <div class="banner">
-
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+          </div>
         <div class="slideshow-container">
             <div class="mySlides fade">
-                <img src="imagens/_DSC249_1600.png">
+                <img class="image" src="imagens/_DSC249_1600.png">
               <div class="row5">
-                <div class="column5">14 de Outubro 2023</div>
-                <div class="column4">O NOSSO ADN</div>
+                <div class="column4">14 DE OUTRUBO 2023</div>
+                <div class="column5"><strong>FOCO NO PROXIMO JOGO</strong></div>
               </div>
             </div>
           
             <div class="mySlides fade">
-              <img src="imagens/_DSC2875.JPG" >
+              <img class="image" src="imagens/_DSC2875.JPG" >
+              <div class="row5">
+                <div class="column4">14 DE OUTRUBO 2023</div>
+                <div class="column5"><strong>PRIMEIRA VITÓRIA</strong></div>
+              </div>
             </div>
-          
+            
             <div class="mySlides fade">
-              <img src="imagens/392882331_793373166129502_4728586399522392484_n.jpg" >
+              <img class="image" src="imagens/392882331_793373166129502_4728586399522392484_n.jpg" >
+              <div class="row5">
+                <div class="column4">14 DE OUTRUBO 2023</div>
+                <div class="column5"><strong>O NOSSO ADN</strong></div>
+              </div>
             </div>
-          
-        </div>
-
+            </div>
+        
         <nav class="navbar">
             <div class="header">
                <a href="index.html">
@@ -237,19 +246,46 @@
 
 
     let slideIndex = 0;
-    showSlides();
+showSlides();
 
-function showSlides() 
-{
+function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 20000); 
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+  slides[slideIndex - 1].style.display = "block";
+
+  // Update progress bar
+  updateProgressBar();
+
+  setTimeout(showSlides, 20000); // Change the time to control slide duration
+}
+
+function updateProgressBar() {
+  const progressBar = document.querySelector(".progress-bar");
+  progressBar.style.width = "0"; // Reset progress bar width
+  const duration = 20000; // Same as the slide duration in showSlides
+  let width = 0;
+  const interval = 20; // Interval for updating the progress bar (milliseconds)
+
+  function frame() {
+    if (width >= 100) {
+      width = 0; // Reset the progress bar when it reaches 100%
+    }
+    progressBar.style.width = width + "%";
+    width += (interval / duration) * 100;
+  }
+
+  const progressBarInterval = setInterval(frame, interval);
+  setTimeout(() => {
+    clearInterval(progressBarInterval); // Stop the progress bar animation
+    progressBar.style.width = "0%";
+  }, duration);
 }
 
 </script>
