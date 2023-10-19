@@ -771,11 +771,13 @@ footer
   }
 
   @media all and (min-width: 1440px) {
-    .banner {
-      min-height: 500px;
+    .banner 
+    {
+      min-height: 600px;
     }
   
-    .mySlides, .image {
+    .mySlides, .image 
+    {
       height: 70vh;
     }
   
