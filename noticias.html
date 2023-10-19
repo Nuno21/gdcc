@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="palmares-style.css">
+    <link rel="stylesheet" href="noticias-style.css">
     <script src="https://kit.fontawesome.com/775d186b2c.js" crossorigin="anonymous"></script>
     <title>GDC COHAEMATO</title>
     <link rel="icon" type="images/x-icon" href="imagens/16440_imgbank (2).png" />
@@ -43,7 +43,7 @@
                     </div>
                 </li>
                 <li class="list-item">
-                    <a href="#">SPONSORS</a>
+                    <a href="noticias.html">NOTÍCIAS</a>
                 </li>
                 <li class="list-item">
                     <button class="btn" id="drop-list">RESULTADOS
@@ -65,81 +65,44 @@
                 <div class="menu-line"></div>
             </div>
         </nav>
-        <strong><p class="text-banner2">PALMARÉS</p></strong> 
-    </div>   
-
-    <section class="palmares">
+        <strong><p class="text-banner2">NOTÍCIAS</p></strong> 
+    </div>
+    
+    <section class="noticias">
         <div class="row">
-            <div class="column">     
+            <div class="column">
                 <div class="row2">
-                    <div class="column2">2021/22</div>
-                    <div class="column3">
-                          <h3>AF PORTO DIVISÃO HONRA</h3>
-                          <p>VENCEDOR: JUNIORES A</p>  
+                    <div class="column2">
+                        <img src="imagens/2875.png">
                     </div>
-                </div>                                  
-                <div class="row3">
-                    <div class="column4">
-                        <h3>AF PORTO 2º FASE DIVISÃO 1</h3>
-                        <p>VENCEDOR: JUNIORES E</p>
+                    <div class="column2">
+                        <div class="row3">
+                            <div class="titlo"><strong>FUTSAL SÉNIORES</strong></div>
+                            <p>14 de outubro 2023</p>
+                            <h2>PRIMEIRA VITÓRIA EM CASA</h2>
+                            <p>No dia 14 de outubro o GDC COHAEMATO/LEÇA FC defrontou o CR BOUGADO em casa alcançando a primeira vitória do campeonato por 3-1! </p>
+                        </div>
                     </div>
-                    <div class="column5">2018/19</div>  
-                </div>
-                <div class="row2">
-                    <div class="column2">2008/09</div>
-                    <div class="column3">
-                        <h3>AF PORTO JUNIORES E</h3>
-                        <p>VENCEDOR JUNIORES E</p>
-                    </div>
-                </div>
-                <div class="row3">
-                    <div class="column4">
-                        <h3>AF PORTO 2º FASE DIVISÃO 1</h3>
-                        <p>VENCEDOR: JUNIORES E</p>
-                    </div>
-                    <div class="column5">2018/19</div>  
                 </div>
                 <div class="row2">
-                    <div class="column2">2008/09</div>
-                    <div class="column3">
-                        <h3>AF PORTO JUNIORES E</h3>
-                        <p>VENCEDOR JUNIORES E</p>
+                    <div class="column2">
+                        <img src="imagens/391726760_793372979462854_4616830755796223660_n.jpg">
                     </div>
-                </div>
-                <div class="row3">
-                    <div class="column4">
-                        <h3>AF PORTO 2º FASE DIVISÃO 1</h3>
-                        <p>VENCEDOR: JUNIORES E</p>
-                    </div>
-                    <div class="column5">2018/19</div>  
-                </div>
-                <div class="row2">
-                    <div class="column2">2008/09</div>
-                    <div class="column3">
-                        <h3>AF PORTO JUNIORES E</h3>
-                        <p>VENCEDOR JUNIORES E</p>
-                    </div>
-                </div>
-                <div class="row3">
-                    <div class="column4">
-                        <h3>AF PORTO 2º FASE DIVISÃO 1</h3>
-                        <p>VENCEDOR: JUNIORES E</p>
-                    </div>
-                    <div class="column5">2018/19</div>  
-                </div>
-                <div class="row2">
-                    <div class="column2">2008/09</div>
-                    <div class="column3">
-                        <h3>AF PORTO JUNIORES E</h3>
-                        <p>VENCEDOR JUNIORES E</p>
+                    <div class="column2">
+                        <div class="row3">
+                            <div class="titlo"><strong>GERAL</strong></div>
+                            <p>14 de outubro 2023</p>
+                            <h2>INAUGURAÇÃO DO NOVO MINIBUS</h2>
+                            <p>Procedeu-se hoje á inauguração do novo minibus que contou com a presença da Sra. Presidente de Câmara (Dra. Luísa Salgueiro) acompanhada por vários elementos do executivo, e da junta de freguesia representada pelo Sr. Presidente (Sr. Paulo Carvalho) e seu executivo.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        
     </section>
 
-
+   
     <section class="redes">
         <p><strong>REDES SOCIAIS</strong></p>
             <div class="icons">
@@ -161,35 +124,7 @@
         naviList.classList.toggle('active');
     })
 
-    window.addEventListener("scroll", function () 
-    {
-    const row2 = document.querySelectorAll(".row2");
-    const row3 = document.querySelectorAll(".row3");
-    row2.forEach((row2) => 
-    {
-        if (isElementInViewport(row2)) 
-        {
-            row2.classList.add("appear");
-        }
-    });
-    row3.forEach((row3) => 
-    {
-        if (isElementInViewport(row3)) 
-        {
-            row3.classList.add("appear");
-        }
-    });
-    });
-
-function isElementInViewport(el) 
-{
-    const rect = el.getBoundingClientRect();
-    return (
-        rect.top >= -500 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-    );
-}
-
+ 
 </script>
 
 </body>
