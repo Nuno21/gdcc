@@ -361,8 +361,6 @@ li.texto
   align-items: center;
 }
 
-
-
 .column2
 {
   background-color: #ccc;
@@ -709,17 +707,79 @@ footer
 }
 
 
-@media screen and (max-width: 1500px)
+@media all and (max-width: 1440px) 
 {
-  .row
+  .banner 
   {
-    margin-left: 0px;
-    margin-right: 0px;
+    min-height: 350px; 
   }
 
-  .column
+  .row7 
   {
-    width: 80%;
+    left: 22%;
+    bottom: 10px;
+  }
+
+  .text-banner 
+  {
+    font-size: 18px; 
+  }
+
+  .text-banner2 
+  {
+    font-size: 30px; 
+  }
+
+  .column1 
+  {
+    width: 85%; 
+  }
+
+  .column1 h2 
+  {
+    font-size: 25px;
+  }
+
+  .subtitlo 
+  {
+    font-size: 25px;
+  }
+
+  .texto 
+  {
+    font-size: 14px;
+  }
+
+
+ .row3 p 
+  {
+    font-size: 12px;
+  }
+
+  .column3
+  {
+    font-size: 16px; 
+  }
+
+  .row4 
+  {
+    height: 60px; 
+  }
+
+  .imgC img 
+  {
+    height: 35px; 
+  }
+
+  .clube1, .clube2 
+  {
+    font-size: 12px; 
+    width: 140px; 
+  }
+
+  .row5 
+  {
+    font-size: 12px; 
   }
 }
 

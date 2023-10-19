@@ -314,7 +314,19 @@
 {
   0% {
       opacity: 0;
-      transform: translateX(20px);
+      transform: translateX(100px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes appearAnimation2
+{
+  0% {
+      opacity: 0;
+      transform: translateX(-100px);
   }
   100% {
       opacity: 1;
@@ -369,10 +381,24 @@
   transition: opacity 1.5s ease, transform 1s ease;
 }
 
-.row3:first-child
+.row2.appear-first
 {
-  opacity: 1;
-  animation: appearAnimation 1000ms ease-in-out;
+  animation: appearAnimation2 1.5s ease forwards, fadeIn 1s ease forwards;
+}
+
+.row3.appear-first 
+{
+  animation: appearAnimation 1.5s ease forwards, fadeIn 1s ease forwards;
+}
+
+.row2.appear
+{
+  animation: appearAnimation2 1s ease forwards;
+}
+
+.row3.appear 
+{
+  animation: appearAnimation 1s ease forwards;
 }
 
 .column5
