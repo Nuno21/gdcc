@@ -773,7 +773,7 @@ footer
   @media all and (min-width: 1440px) {
     .banner 
     {
-      min-height: 600px;
+      min-height: 400px;
     }
   
     .mySlides, .image 
